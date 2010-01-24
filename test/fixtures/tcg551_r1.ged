@@ -1,0 +1,21 @@
+0 @R1@ REPO
+1 NAME Family History Library
+1 ADDR 35 North West Temple
+2 CONT Salt Lake City, UT 84111
+2 CONT USA
+2 ADR1 35 North West Temple
+2 ADR2 Across the street from Temple Square
+2 CITY Salt Lake City
+2 STAE Utah
+2 POST 84111
+2 CTRY USA
+1 PHON +1-801-240-2331 (information)
+1 PHON +1-801-240-1278 (gifts & donations)
+1 PHON +1-801-240-2584 (support)
+1 NOTE @N2@
+1 REFN User Ref Number
+2 TYPE Sample
+1 RIN 1
+1 CHAN
+2 DATE 12 Mar 2000
+3 TIME 10:36:02

@@ -3,7 +3,7 @@ require 'test_helper'
 class Gedspec::IndividualTest < Test::Unit::TestCase
   
   def setup
-    @indi = Gedspec::Individual.new
+    @indi = Gedspec::Individual.new(fixture_content('tcg551_i13.ged'))
   end
   
   should "load" do

@@ -1,0 +1,20 @@
+0 @N2@ NOTE
+1 CONC Comments on "Family History Library" REPOSITORY Record.
+1 CONT 
+1 CONT This record uses all possible GEDCOM tags for a REPOSITORY record. Some 
+1 CONC things to look for are:
+1 CONT 
+1 CONT 1. The address is specified twice. Once in a multi-line address record and once in 
+1 CONC separate lines. The first method is usually enough. The second method is to be more 
+1 CONC specific about parts of the address. Is everything imported?
+1 CONT 
+1 CONT 2. There are multiple phone numbers. Are they all imported?
+1 SOUR @SOURCE1@
+2 PAGE 1
+2 DATA
+3 DATE 1 MAY 1999
+3 TEXT Text from the source about this repository.
+2 QUAY 3
+1 CHAN
+2 DATE 12 Mar 2000
+3 TIME 11:44:05
