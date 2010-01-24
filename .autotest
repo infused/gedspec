@@ -1,0 +1,16 @@
+Autotest.add_hook :initialize do |autotest|
+  autotest.clear_mappings
+  
+  autotest.add_mapping(%r%^lib/(.*)\.rb$%) do |filename, m|
+    autotest.files_matching %r!test/#{m[1]}_test.rb!
+  end
+  
+  autotest.add_mapping(%r%^test/.*\.rb$%) do |filename, m|
+    filename
+  end
+  
+  %w{.git .txt Rakefile .gemspec .autotest}.each  do |exception|
+    autotest.add_exception(exception)
+  end
+end
+
