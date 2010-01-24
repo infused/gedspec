@@ -1,0 +1,2774 @@
+﻿0 HEAD
+1 SOUR Legacy
+2 VERS 6.0
+2 NAME Legacy (R)
+2 CORP Millennia Corp.
+3 ADDR PO Box 9410
+4 CONT Surprise, AZ 85374
+1 DEST Gedcom55
+1 DATE 27 Aug 2006
+1 SUBM @S0@
+1 FILE sample.ged
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @S0@ SUBM
+1 NAME Keith Morrison
+1 _EMAIL keithm@infused.org
+0 @I1@ INDI
+1 NAME John Douglas /Cochrane/
+2 GIVN John Douglas
+2 SURN Cochrane
+1 SEX M
+1 BIRT
+2 DATE 21 Oct 1884
+2 PLAC Drummond Terrace, Ottawa, Ontario, Canada
+1 DEAT
+2 DATE 12 Jul 1941
+2 PLAC Tranquille Sanitarium, Kamloops, British Columbia, Canada
+2 CAUS Pulminary Tuberculosis
+3 SOUR @S151@
+2 SOUR @S14@
+3 DATA
+4 TEXT Name: Cochrane, John Douglas; Gender: Male; Age: 56; Deat
+5 CONC h Date: 12 July 1941; Place of Death: Tranquille; Registrat
+5 CONC ion Number: 1941-09-591161; BCA Number: B13172; GSU Number
+5 CONC : 1953632
+2 SOUR @S151@
+1 BURI
+2 PLAC Pleasant Street Cemetary, Kamloops, British Columbia, Canada
+2 SOUR @S158@
+2 OBJE
+3 FORM jpg
+3 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane_funeral.jpg
+3 _SCBK Y
+3 _PRIM Y
+3 _TYPE PHOTO
+2 OBJE
+3 FORM jpg
+3 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane_funeral2.jpg
+3 _SCBK Y
+3 _TYPE PHOTO
+1 REFN 1
+1 OCCU Musician and Salesman
+2 SOUR @S151@
+1 RESI 
+2 DATE 1904
+2 PLAC Acme, , Alberta, Canada
+2 SOUR @S160@
+3 PAGE Page 468
+3 QUAY 3
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Vancouver, British Columbia, Canada
+2 SOUR @S151@
+2 ADDR 826 Homer Street
+3 CONT Vancouver, British Columbia Canada
+3 _NAME n/a
+3 ADR1 826 Homer Street
+3 CITY Vancouver
+3 STAE British Columbia
+3 CTRY Canada
+1 _UID FD0FA2F09AD74FD3827E6F46F8F243C2D52B
+1 CHAN
+2 DATE 13 Mar 2005
+3 TIME 22:31
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\jd_cochrane_and_lm_edwards.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\jd_and_wg_cochrane.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane2.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane3.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\john_douglas_cochrane4.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 FAMS @F2@
+1 NOTE @NI1@
+1 NOTE @HI1@
+0 @NI1@ NOTE
+1 CONC Played Coronet, French horn, and percussion for Philadelphi
+1 CONC a or Chicago Symphony.  He also played for John Phillip Sou
+1 CONC sa's Band.
+0 @HI1@ NOTE
+1 CONC (Research):10/22/2002: Checked archives at the Chicago Symp
+1 CONC hony Orchestra.  No record for any Cochrane's.
+0 @I111@ INDI
+1 NAME Creon Henry /Nims/
+2 GIVN Creon Henry
+2 SURN Nims
+1 NAME Connie //
+2 GIVN Connie
+2 SURN 
+1 SEX M
+1 BIRT
+2 DATE 21 Jan 1915
+2 PLAC Maquoketa, Iowa, USA
+1 DEAT
+2 DATE Jun 2004
+1 REFN 111
+1 ADDR 4555 NE 84th Street
+2 CONT Portland, OR 97220, USA, , , 
+2 _NAME Connie Nims
+2 ADR1 4555 NE 84th Street
+2 ADR2 Portland, OR 97220, USA, , , 
+1 OCCU Autobody Repairman
+1 _UID 6E13CCFDFF3B49B28B00CFED7C3E3018C88C
+1 CHAN
+2 DATE 5 Jul 2004
+3 TIME 16:27
+1 FAMS @F65@
+0 @I381@ INDI
+1 NAME Herman Franklin /Morrison/
+2 GIVN Herman Franklin
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 15 Jan 1883
+2 PLAC York, York Co, Nebraska, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE 19 Aug 1958
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate 9629
+3 QUAY 3
+1 REFN 381
+1 EVEN 
+2 TYPE Alt. Birth
+2 PLAC Wyoming, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 RESI 
+2 DATE 1910
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+1 RESI 
+2 DATE Abt 1916
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S171@
+1 RESI 
+2 DATE 1920
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 OCCU Contractor
+2 DATE 1920
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 OCCU Sand and Gravel Contractor
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 EVEN Ashes spread over the Pacific Ocean
+2 TYPE Cremated
+2 DATE Aft 19 Aug 1958
+2 PLAC Astoria, Clatsop, Oregon, USA
+1 _UID 1706F8BBFB8944688C369293C99CBD17207E
+1 CHAN
+2 DATE 30 Jun 2004
+3 TIME 22:52
+1 FAMS @F210@
+0 @I382@ INDI
+1 NAME Pauline R. /DeChenne/
+2 GIVN Pauline R.
+2 SURN DeChenne
+1 NAME Pauline D. /Chenne/
+2 GIVN Pauline D.
+2 SURN Chenne
+1 NAME Pauline S. /De Chenne/
+2 GIVN Pauline S.
+2 SURN De Chenne
+1 NAME Polly Belle /DeChenne/
+2 GIVN Polly Belle
+2 SURN DeChenne
+1 SEX F
+1 BIRT
+2 DATE 10 Dec 1888
+2 PLAC Pocahontas, Bond Co, Illinois, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+3 OBJE
+4 FORM jpg
+4 FILE C:\Program Files\Legacy\Pictures\1910C-WA-Lincoln-Edwall1B.jpg
+4 TITL Page 1B
+4 _SCBK Y
+4 _PRIM Y
+4 _TYPE PHOTO
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE 6 Oct 1961
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate  13036
+3 QUAY 3
+1 BURI
+2 PLAC Spokane, Spokane Co, Washington, USA
+1 REFN 382
+1 RESI 
+2 DATE 1910
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+1 RESI 
+2 DATE Abt 1916
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S171@
+1 RESI 
+2 DATE 1920
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 _UID A849C39D310A4CCDB4C74AF6AA2C825E167A
+1 CHAN
+2 DATE 30 Jun 2004
+3 TIME 22:55
+1 FAMS @F210@
+0 @I383@ INDI
+1 NAME Evelyn Paula /Morrison/
+2 GIVN Evelyn Paula
+2 SURN Morrison
+1 SEX F
+1 BIRT
+2 DATE 19 Mar 1910
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+2 SOUR @S171@
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+2 SOUR @S173@
+3 PAGE Certificate 92-14879
+3 QUAY 3
+2 SOUR @S540@
+1 DEAT
+2 DATE 2 Aug 1992
+2 PLAC Portland, Multnomah, Oregon, USA
+2 CAUS Lung Cancer
+2 SOUR @S171@
+2 SOUR @S173@
+3 PAGE Certificate 92-14879
+3 QUAY 3
+1 REFN 383
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+1 EVEN 544-07-4858
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1910
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+1 RESI 
+2 DATE Abt 1916
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S171@
+1 RESI 
+2 DATE 1920
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 _UID 7CDAA7F8D41E468BAD33A83B78CDAC5ECAFA
+1 CHAN
+2 DATE 31 May 2004
+3 TIME 21:20
+1 FAMS @F212@
+1 FAMC @F210@
+0 @I887@ INDI
+1 NAME Patricia /Bartch/
+2 GIVN Patricia
+2 SURN Bartch
+1 SEX F
+1 BIRT
+2 DATE 11 Feb 1951
+1 REFN 887
+1 _UID B8A00ACFA1544560BBEF7A5B30AF68BC4D86
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F436@
+0 @I998@ INDI
+1 NAME Elwood Dean /Morrison/
+2 GIVN Elwood Dean
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 15 Aug 1907
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S55@
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+2 SOUR @S173@
+3 PAGE Certificate 73-01461
+3 QUAY 3
+2 SOUR @S540@
+1 DEAT
+2 DATE 23 Jan 1973
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate 73-01461
+3 QUAY 3
+1 BURI
+2 PLAC Rose City Cemetery, Multnomah Co, Portland, Oregon, USA
+2 SOUR @S63@
+3 PAGE Lot E 1/2 34, Section E, Grave 3
+3 QUAY 3
+1 REFN 998
+1 EVEN 540-05-3181
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1910
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+1 RESI 
+2 DATE Abt 1916
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S171@
+1 RESI 
+2 DATE 1920
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 OCCU Truck Driver (sand & gravel)
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 _UID 36C19812686248EC932CC5D3FDB354211B7A
+1 CHAN
+2 DATE 31 May 2004
+3 TIME 21:18
+1 FAMS @F493@
+1 FAMC @F210@
+0 @I1009@ INDI
+1 NAME Julianna /Breeden/
+2 GIVN Julianna
+2 SURN Breeden
+1 NAME Julia Anne /Breeden/
+2 GIVN Julia Anne
+2 SURN Breeden
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 18 Apr 1917
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+2 SOUR @S11@
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+2 SOUR @S173@
+3 PAGE Certificate 97-24302
+3 QUAY 3
+1 DEAT
+2 DATE 4 Nov 1997
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate 97-24302
+3 QUAY 3
+1 BURI
+2 PLAC Rose City Cemetery, Multnomah Co, Portland, Oregon, USA
+1 REFN 1009
+1 ADDR 790 SE Webber
+2 CONT Portland, OR 97202, , , , 
+2 _NAME Julianna Morrison
+2 ADR1 790 SE Webber
+2 ADR2 Portland, OR 97202, , , , 
+1 EVEN 544-16-2395
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 _UID 866EB35956D34DA984A8684660A7C3B1745F
+1 CHAN
+2 DATE 29 Jan 2003
+3 TIME 11:42
+1 FAMS @F3611@
+1 FAMS @F493@
+1 FAMC @F499@
+0 @I1019@ INDI
+1 NAME Leanna /Morrison/
+2 GIVN Leanna
+2 SURN Morrison
+1 SEX F
+1 BIRT
+2 DATE 28 Nov 1940
+1 REFN 1019
+1 _UID EEC325C1857C4DD0BAE6C9EF0AC3376071BC
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMC @F493@
+0 @I1030@ INDI
+1 NAME Michael Dean /Morrison/
+2 GIVN Michael Dean
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 2 Jul 1950
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate 80-12403
+3 QUAY 3
+1 DEAT
+2 DATE 22 Jul 1980
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate 80-12403
+3 QUAY 3
+1 BURI
+2 PLAC Rose City Cemetery, Multnomah Co, Portland, Oregon, USA
+1 REFN 1030
+1 EVEN 544-52-6421
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 _UID 279887D012C945A894D22D6ECE5510EE0036
+1 CHAN
+2 DATE 13 Dec 2002
+3 TIME 12:26
+1 FAMC @F493@
+1 NOTE @NI1030@
+0 @NI1030@ NOTE
+1 CONC Buried: Grave 3, Lot E 1/2 34, Section E
+0 @I1101@ INDI
+1 NAME Leah Mary /Edwards/
+2 GIVN Leah Mary
+2 SURN Edwards
+1 NAME Lily //
+2 GIVN Lily
+2 SURN 
+1 SEX F
+1 BIRT
+2 DATE 2 Sep 1890
+2 PLAC Lydeard St. Lawrence, Somerset, England
+2 SOUR @S76@
+3 PAGE RG13, Piece 2279, Folio 84, Page 9, Schedule 57
+3 QUAY 2
+3 DATA
+4 TEXT Name: Leah Mary Edwards; Relation to Head of Household: Dau
+5 CONC ghter; Condition as to Marriage: S; Age Last Birthday: 11
+5 CONC ; Sex: F; Profession or Occupation: undefined; Employment S
+5 CONC tatus: undefined; Where Born: Somt Lydeard St Lawrence
+2 SOUR @S526@
+3 PAGE Page 10
+3 QUAY 3
+2 SOUR @S528@
+3 PAGE Reg No 611
+3 QUAY 4
+1 CHR
+2 DATE 3 Apr 1892
+2 PLAC Lydeard St. Lawrence, Somerset, England
+2 SOUR @S528@
+3 PAGE Reg No 611
+3 QUAY 4
+1 DEAT
+2 DATE 27 Dec 1964
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate 17742
+3 QUAY 3
+1 BURI
+2 DATE 30 Dec 1964
+2 PLAC Riverview Abbey Mausoleum, Portland, Oregon, USA
+2 SOUR @S63@
+1 REFN 1101
+1 EVEN 544-30-0654
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1891
+2 PLAC Lydeard St. Lawrence, Somerset, England
+2 SOUR @S526@
+3 PAGE Page 10
+3 QUAY 3
+1 RESI 
+2 DATE 1901
+2 PLAC West Bagborough, Somerset, England
+2 SOUR @S76@
+3 PAGE RG13, Piece 2279, Folio 84, Page 9, Schedule 57
+3 QUAY 2
+1 IMMI from Canada
+2 DATE 1922
+2 PLAC USA
+1 EVEN 
+2 TYPE Funeral
+2 DATE 30 Dec 1964
+2 PLAC Ross Hollywood Chapel, Portland, Multnomah Co, Oregon, USA
+1 _UID 9FD57D02E47343F6A4CB952CD6845D94FE79
+1 CHAN
+2 DATE 23 Jun 2003
+3 TIME 12:59
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\jd_cochrane_and_lm_edwards.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 FAMS @F2@
+1 FAMS @F540@
+0 @I1155@ INDI
+1 NAME Forrest Eugene /Lewin/
+2 GIVN Forrest Eugene
+2 SURN Lewin
+1 SEX M
+1 BIRT
+2 DATE 22 Jan 1882
+2 PLAC Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+2 SOUR @S143@
+3 PAGE Page 170A
+3 QUAY 3
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 9 May 1943
+2 PLAC Shingle Springs, El Dorado Co, California, USA
+2 SOUR @S184@
+1 BURI
+2 DATE 1943
+2 PLAC El Dorado Cemetary, Placerville, El Dorado Co, California, USA
+1 REFN 1155
+1 EVEN 
+2 TYPE Military
+2 PLAC WW1
+1 EVEN 567-01-2713
+2 TYPE Social Security Number
+2 SOUR @S10@
+2 SOUR @S184@
+1 RESI 
+2 DATE 1900
+2 PLAC Sargent Twp, Custer Co, Nebraska, USA
+2 SOUR @S143@
+3 PAGE Page 170A
+3 QUAY 3
+1 OCCU Farm Laborer
+2 DATE 1900
+2 PLAC Sargent Twp, Custer Co, Nebraska, USA
+2 SOUR @S143@
+3 PAGE Page 170A
+3 QUAY 3
+1 RESI 
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 OCCU Laborer
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 OCCU Carpenter
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 OCCU Carpenter (house)
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID 844B3408C1364F4A8A2FA12072E021048CA0
+1 CHAN
+2 DATE 31 May 2004
+3 TIME 21:33
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\fe_lewin_and_df_sumner.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\forrest_eugene_lewin_1yr.jpg
+2 _SCBK Y
+2 _TYPE PHOTO
+1 FAMS @F559@
+0 @I1166@ INDI
+1 NAME Della Florence /Sumner/
+2 GIVN Della Florence
+2 SURN Sumner
+1 SEX F
+1 BIRT
+2 DATE 2 Jun 1882
+2 PLAC Wilsonville, Furnas Co, Nebraska, USA
+2 SOUR @S10@
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+2 SOUR @S184@
+2 SOUR @S273@
+3 PAGE Page 7B
+3 QUAY 3
+1 DEAT
+2 DATE 29 Jan 1971
+2 PLAC Placerville, El Dorado Co, California, USA
+2 SOUR @S59@
+2 SOUR @S10@
+2 SOUR @S184@
+1 BURI
+2 DATE 1971
+2 PLAC El Dorado Cemetary, Placerville, El Dorado Co, California, USA
+1 REFN 1166
+1 EVEN 567-01-2713
+2 TYPE Social Security Number
+2 SOUR @S10@
+2 SOUR @S184@
+1 RESI In household of uncle John M. Wollen
+2 DATE 1900
+2 PLAC Crystal, Norton Co, Kansas, USA
+2 SOUR @S273@
+3 PAGE Page 7B
+3 QUAY 3
+1 RESI 
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 OCCU Telephone Operator
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID 543D0C9F16EC461B99D7107A8953C2BDF432
+1 CHAN
+2 DATE 31 May 2004
+3 TIME 22:12
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\fe_lewin_and_df_sumner.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 FAMS @F559@
+0 @I1181@ INDI
+1 NAME Isaac Bern /Breeden/
+2 GIVN Isaac Bern
+2 SURN Breeden
+1 NAME Bern //
+2 GIVN Bern
+2 SURN 
+1 SEX M
+1 BIRT
+2 DATE 16 Aug 1910
+2 PLAC Arnett, Oklahoma, USA
+2 SOUR @S170@
+2 SOUR @S172@
+3 PAGE District 532, Page 4A
+3 QUAY 3
+2 SOUR @S173@
+3 PAGE Certificate 92-17276
+3 QUAY 3
+1 DEAT
+2 DATE 24 Aug 1992
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S170@
+2 SOUR @S173@
+3 PAGE Certificate 92-17276
+3 QUAY 3
+1 BURI
+2 NOTE @XI1181@
+1 REFN 1181
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Seaside, Clatsop, Oregon, USA
+1 EVEN 542-05-0123
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 OCCU Construction Supervisor for Portland Road & Driveway Co
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S170@
+1 RESI Killingsworth Ave
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 532, Page 4A
+3 QUAY 3
+1 OCCU Truck Driver (meat)
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 532, Page 4A
+3 QUAY 3
+1 _UID F2A6663AF20E42408229841816A1299B7C0D
+1 CHAN
+2 DATE 18 Feb 2003
+3 TIME 13:53
+1 FAMS @F212@
+1 FAMC @F499@
+0 @XI1181@ NOTE
+1 CONC Ashes Spread over the Pacific Ocean
+0 @I1282@ INDI
+1 NAME Estelle Meredith /Cochrane/
+2 GIVN Estelle Meredith
+2 SURN Cochrane
+1 SEX F
+1 BIRT
+2 DATE 4 Apr 1916
+2 PLAC Calgary, Alberta, Canada
+1 REFN 1282
+1 ADDR 7515 NE Prescott Avenue
+2 CONT Portland, OR 97218, , , , 
+2 _NAME Estelle Lewin
+2 ADR1 7515 NE Prescott Avenue
+2 ADR2 Portland, OR 97218, , , , 
+1 OCCU Bookkeeper
+1 BAPM 
+2 DATE 24 Sep 1916
+2 PLAC Church of the Redeemer, Calgary, Alberta, Canada
+1 IMMI from Canada
+2 DATE 1922
+2 PLAC USA
+1 NATU 
+2 DATE 24 Dec 1941
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S288@
+1 RESI 217 SE 84th Avenue
+2 DATE 24 Dec 1941
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S288@
+1 RESI 868 Baden Avenue
+2 DATE 16 May 1948
+2 PLAC San Francisco Co, California, USA
+2 SOUR @S289@
+1 _UID 5AF4AC1E918C493CB7B169152BDCD443BE39
+1 CHAN
+2 DATE 22 Feb 2003
+3 TIME 15:26
+1 FAMS @F4232@
+1 FAMS @F614@
+1 FAMC @F2@
+0 @I1393@ INDI
+1 NAME Muriel Alice Elizabeth /Cochrane/
+2 GIVN Muriel Alice Elizabeth
+2 SURN Cochrane
+1 SEX F
+1 BIRT
+2 DATE 10 Aug 1917
+2 PLAC Calgary, Alberta, Canada
+2 SOUR @S174@
+2 SOUR @S173@
+3 PAGE Certificate 96-25234
+3 QUAY 3
+2 SOUR @S55@
+1 DEAT
+2 DATE 14 Nov 1996
+2 PLAC Portland, Multnomah, Oregon, USA
+2 CAUS Complications from Parkinson's Disease
+2 SOUR @S174@
+2 SOUR @S173@
+3 PAGE Certificate 96-25234
+3 QUAY 3
+2 SOUR @S55@
+1 BURI
+2 PLAC Rose City Cemetery, Multnomah Co, Portland, Oregon, USA
+1 REFN 1393
+1 SOUR @S174@
+1 ADDR 4555 NE 84th Street
+2 CONT Portland, OR 97220, USA, , , 
+2 _NAME Muriel Nims
+2 ADR1 4555 NE 84th Street
+2 ADR2 Portland, OR 97220, USA, , , 
+1 OCCU Office Worker
+1 IMMI Canada
+2 DATE 1922
+2 PLAC USA
+1 EVEN 542-01-8719
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 _UID CA436F1131D54F53948B05354328AAF59851
+1 CHAN
+2 DATE 13 Dec 2002
+3 TIME 12:06
+1 FAMS @F65@
+1 FAMC @F2@
+0 @I1467@ INDI
+1 NAME Claude William /Lewin/
+2 GIVN Claude William
+2 SURN Lewin
+1 SEX M
+1 BIRT
+2 DATE 18 Mar 1914
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S55@
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+2 SOUR @S507@
+1 DEAT
+2 DATE 18 Feb 2001
+2 PLAC Novato, Marin Co, California, USA
+2 SOUR @S55@
+1 BURI
+2 DATE 23 Feb 2001
+2 PLAC Golden Gate National Cemetary, San Bruno, San Mateo, California, USA
+2 ADDR 1300 Sneath Lane
+3 CONT San Bruno, California 94066 USA
+3 _NAME Golden Gate National Cemetary
+3 ADR1 1300 Sneath Lane
+3 CITY San Bruno
+3 STAE California
+3 POST 94066
+3 CTRY USA
+2 PHON  (650) 589-7737 
+2 NOTE @XI1467@
+1 REFN 1467
+1 ADDR 609 Olive Avenue
+2 CONT Novato, California, 94945, USA, 
+2 _NAME Claude Lewin
+2 ADR1 609 Olive Avenue
+2 ADR2 Novato, California, 94945, USA, 
+1 OCCU Electrical Engineer
+1 EVEN 553-01-5800
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 OCCU Machinist, Seattle Tacoma Ship Yards
+2 DATE Bet Mar 1940 and Sep 1942
+2 PLAC Seattle, King Co, Washington, USA
+2 SOUR @S507@
+1 EVEN US Navy
+2 TYPE Military Enlist
+2 DATE 2 Sep 1942
+2 PLAC Seattle, King Co, Washington, USA
+2 SOUR @S507@
+1 RESI 
+2 DATE 2 Sep 1942
+2 PLAC Shingle, California, USA
+2 SOUR @S507@
+1 EVEN US Navy, Electriacian's Mate 1st Class V-6
+2 TYPE Military Discharge
+2 DATE 7 Oct 1945
+2 PLAC San Pedro, California, USA
+2 SOUR @S507@
+1 RESI 868 Baden Avenue
+2 DATE 16 May 1948
+2 PLAC San Francisco Co, California, USA
+2 SOUR @S289@
+1 _UID F84DE9CB92994671A8174509B311AC277F5A
+1 CHAN
+2 DATE 19 Apr 2004
+3 TIME 00:05
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\claude_william_lewin.jpg
+2 TITL Claude William Lewin
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 FAMS @F700@
+1 FAMS @F614@
+1 FAMC @F559@
+0 @XI1467@ NOTE
+1 CONC Section 2A
+1 CONT Site 302-B
+0 @I1577@ INDI
+1 NAME Stephen Forrest /Lewin/
+2 GIVN Stephen Forrest
+2 SURN Lewin
+1 SEX M
+1 BIRT
+2 DATE 16 May 1948
+2 PLAC Stanford Medical Center, San Francisco, San Francisco Co, California, USA
+2 SOUR @S193@
+2 SOUR @S289@
+1 REFN 1577
+1 ADDR 533 NE Bridgeton Road
+2 CONT Portland, OR 97211, , , , 
+2 _NAME Steve Lewin
+2 ADR1 533 NE Bridgeton Road
+2 ADR2 Portland, OR 97211, , , , 
+1 _UID 8039704AF2544BC992FCE6DAF806783BCC63
+1 CHAN
+2 DATE 22 Feb 2003
+3 TIME 15:30
+1 FAMS @F436@
+1 FAMC @F614@
+0 @I1589@ INDI
+1 NAME David Todd /Vosper/
+2 GIVN David Todd
+2 SURN Vosper
+1 SEX M
+1 BIRT
+2 DATE 1950
+1 REFN 1589
+1 _UID 10B1F5EBC7F84B41A43542C5C97BF4373B93
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F3905@
+0 @I1687@ INDI
+1 NAME Claudia Leadele /Lewin/
+2 GIVN Claudia Leadele
+2 SURN Lewin
+1 SEX F
+1 BIRT
+2 DATE 2 Apr 1950
+2 PLAC San Francisco, San Francisco Co, California, USA
+2 SOUR @S193@
+1 REFN 1687
+1 ADDR 1613 SE 127th Avenue
+2 CONT Vancouver, WA 98684, USA, , , 
+2 _NAME Claudia Falls
+2 ADR1 1613 SE 127th Avenue
+2 ADR2 Vancouver, WA 98684, USA, , , 
+1 _UID 9849F8628AC347449FD36ED70B152EDBF37A
+1 CHAN
+2 DATE 16 Dec 2002
+3 TIME 23:17
+1 FAMS @F5@
+1 FAMS @F770@
+1 FAMS @F771@
+1 FAMS @F3905@
+1 FAMC @F614@
+0 @I1708@ INDI
+1 NAME Thomas /Bleth/
+2 GIVN Thomas
+2 SURN Bleth
+1 SEX M
+1 REFN 1708
+1 _UID 93630FADE05C4FA391BF3165E33A7260B53B
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F770@
+0 @I1710@ INDI
+1 NAME Herbert /Bernard/
+2 GIVN Herbert
+2 SURN Bernard
+1 SEX M
+1 REFN 1710
+1 _UID 439455D2423F46CF94D03B5FDFE93E7B13B7
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F540@
+0 @I1711@ INDI
+1 NAME Anne Louise /McQuade/
+2 GIVN Anne Louise
+2 SURN McQuade
+1 SEX F
+1 BIRT
+2 DATE 25 Aug 1928
+2 PLAC San Francisco Co, California, USA
+2 SOUR @S184@
+2 SOUR @S193@
+1 DEAT
+2 DATE 16 Jun 1997
+2 PLAC Novato, Marin Co, California, USA
+2 SOUR @S184@
+2 SOUR @S55@
+1 REFN 1711
+1 EVEN 552-34-3521
+2 TYPE Social Security Number
+2 SOUR @S184@
+2 SOUR @S55@
+1 _UID 80723180B7274BD9B9642C041FB4D41BB4A7
+1 CHAN
+2 DATE 16 Jan 2003
+3 TIME 12:12
+1 FAMS @F700@
+0 @I1789@ INDI
+1 NAME Stephen Douglas /Morrison/
+2 GIVN Stephen Douglas
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 4 Jun 1949
+2 PLAC Good Samaritan Hospital, Multnomah Co, Portland, Oregon, USA
+1 REFN 1789
+1 ADDR 4958 Belford Lane
+2 CONT Lake Oswego, OR 97035 USA
+2 _NAME Steve Morrison
+2 ADR1 4958 Belford Lane
+2 CITY Lake Oswego
+2 STAE OR
+2 POST 97035
+2 CTRY USA
+1 _UID 25EBC0D910F040D39777574A2D2CC0981C5A
+1 CHAN
+2 DATE 17 Nov 2002
+3 TIME 14:24
+1 FAMS @F5@
+1 FAMS @F3354@
+1 FAMC @F493@
+0 @I1807@ INDI
+1 NAME Zelda Elaine /Lewin/
+2 GIVN Zelda Elaine
+2 SURN Lewin
+1 SEX F
+1 BIRT
+2 DATE 9 Mar 1907
+2 PLAC Nebraska, USA
+2 SOUR @S55@
+2 SOUR @S183@
+3 PAGE Page 11B
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 24 Jan 1978
+2 PLAC Sonoma, Sonoma Co, California, USA
+2 SOUR @S55@
+2 SOUR @S184@
+1 REFN 1807
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Sonoma Co, California, USA
+2 SOUR @S55@
+1 EVEN 530-16-2387
+2 TYPE Social Security Number
+2 SOUR @S55@
+2 SOUR @S184@
+1 RESI 
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Placerville, El Dorado Co, California, USA
+2 SOUR @S183@
+3 PAGE Page 11B
+3 QUAY 3
+1 OCCU Housekeeper
+2 DATE 1930
+2 PLAC Placerville, El Dorado Co, California, USA
+2 SOUR @S183@
+3 PAGE Page 11B
+3 QUAY 3
+1 _UID 8EADAA127D2F45B4825F6265D1EF7E9B1DB6
+1 CHAN
+2 DATE 12 Dec 2002
+3 TIME 17:22
+1 FAMS @F814@
+1 FAMS @F815@
+1 FAMC @F559@
+0 @I1808@ INDI
+1 NAME Leola Edna /Lewin/
+2 GIVN Leola Edna
+2 SURN Lewin
+1 SEX F
+1 BIRT
+2 DATE 14 Apr 1908
+2 PLAC Nebraska, USA
+2 SOUR @S55@
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 4 Jul 1981
+2 PLAC Sacramento Co, California, USA
+2 SOUR @S55@
+2 SOUR @S184@
+1 REFN 1808
+1 EVEN 572-36-9818
+2 TYPE Social Security Number
+2 SOUR @S55@
+2 SOUR @S184@
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Shingle Springs, El Dorado Co, California, USA
+2 SOUR @S55@
+1 RESI 
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Mud Springs, El Dorado Co, California, USA
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+1 _UID BF65CEA2512248FAA4D1FAF00C585ED33D5F
+1 CHAN
+2 DATE 12 Dec 2002
+3 TIME 17:06
+1 FAMS @F816@
+1 FAMC @F559@
+0 @I1809@ INDI
+1 NAME Lilas F. /Lewin/
+2 GIVN Lilas F.
+2 SURN Lewin
+1 SEX F
+1 BIRT
+2 DATE 12 Jul 1909
+2 PLAC Nebraska, USA
+2 SOUR @S20@
+3 PAGE 1920, Comstock Twp, Custer Co, Nebraska, USA
+3 QUAY 3
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 DEAT Y
+1 REFN 1809
+1 ADDR 921 East 9th
+2 CONT Ogallala, Nebraska 69153
+2 _NAME Lilas Thomas
+2 ADR1 921 East 9th
+2 CITY Ogallala
+2 STAE Nebraska
+2 POST 69153
+1 PHON 308-284-2186
+1 RESI 
+2 DATE 1910
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S86@
+3 PAGE Page 2
+3 QUAY 3
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID D3EC45C4103747C190756B9CA572F7FF3082
+1 CHAN
+2 DATE 20 Feb 2003
+3 TIME 11:55
+1 FAMS @F817@
+1 FAMC @F559@
+0 @I1810@ INDI
+1 NAME Leo Eugene /Lewin/
+2 GIVN Leo Eugene
+2 SURN Lewin
+1 NAME Pinky //
+2 GIVN Pinky
+2 SURN 
+1 NAME Eugene L. /Lewin/
+2 GIVN Eugene L.
+2 SURN Lewin
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 25 Jan 1911
+2 PLAC Nebraska, USA
+2 SOUR @S55@
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE May 1986
+2 PLAC Nevada, USA
+2 SOUR @S55@
+1 REFN 1810
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Dayton, Lyon Co, Nevada, USA
+1 EVEN 560-10-7606
+2 TYPE Social Security Number
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID 4CA29D2384344A5A9A8A6395329A6FC4251E
+1 CHAN
+2 DATE 21 Feb 2003
+3 TIME 12:31
+1 FAMC @F559@
+1 NOTE @NI1810@
+0 @NI1810@ NOTE
+1 CONC Also had 4 boys.
+0 @I1811@ INDI
+1 NAME John Harvey /Lewin/
+2 GIVN John Harvey
+2 SURN Lewin
+1 SEX M
+1 BIRT
+2 DATE 1 Sep 1915
+2 PLAC Nebraska, USA
+2 SOUR @S20@
+3 PAGE 1920, Comstock Twp, Custer Co, Nebraska, USA
+3 QUAY 3
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE 18 Apr 1945
+2 PLAC Italy
+2 CAUS Killed in Action
+2 SOUR @S73@
+3 PAGE Entry for John H. Lewin
+3 QUAY 3
+3 DATA
+4 TEXT John H. Lewin 
+5 CONT Private First Class, U.S. Army
+5 CONT 39326572
+5 CONT 85th Infantry Regiment, 10th Mountain Division 
+5 CONT Entered the Service from: Oregon
+5 CONT Died: April 18, 1945
+5 CONT Buried at: Plot C Row 10 Grave 23
+5 CONT Florence American Cemetery
+5 CONT Florence, Italy  
+5 CONT Awards: Bronze Star, Purple Heart
+1 BURI
+2 PLAC Florence American Cemetary, Florence, Italy
+2 SOUR @S73@
+3 PAGE Entry for John H. Lewin
+3 QUAY 3
+2 NOTE @XI1811@
+1 REFN 1811
+1 EVEN WW2, PFC, 85th Infantry Regiment, 10th Mountain Division
+2 TYPE Military
+2 NOTE 39326572
+1 EVEN Bronze Star
+2 TYPE Military Award
+1 EVEN Purple Heart
+2 TYPE Military Award
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 RESI 
+2 DATE Abt 1944
+2 PLAC Lane Co, Oregon, USA
+1 _UID 4B32A9893DE1498C94DA1AB82D3DDD032C10
+1 CHAN
+2 DATE 28 Mar 2003
+3 TIME 13:31
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\john_harvey_lewin.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 FAMS @F819@
+1 FAMC @F559@
+0 @XI1811@ NOTE
+1 CONC Plot C Row 10 Grave 23
+0 @I1813@ INDI
+1 NAME Amy Lucille /Lewin/
+2 GIVN Amy Lucille
+2 SURN Lewin
+1 SEX F
+1 BIRT
+2 DATE 16 Sep 1917
+2 PLAC Nebraska, USA
+2 SOUR @S55@
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 9 Jun 1989
+2 PLAC El Dorado Co, California, USA
+2 SOUR @S55@
+2 SOUR @S184@
+1 REFN 1813
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Shingle Springs, El Dorado Co, California, USA
+2 SOUR @S55@
+1 EVEN 572-36-5830
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 RESI 
+2 DATE 1920
+2 PLAC Comstock, Custer Co, Nebraska, USA
+2 SOUR @S84@
+3 PAGE Page 6
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID A6E824DC02A14A2C801F79F2A7136D09E1B0
+1 CHAN
+2 DATE 17 Dec 2002
+3 TIME 10:42
+1 FAMS @F820@
+1 FAMC @F559@
+0 @I1814@ INDI
+1 NAME Jessie S. /Lewin/
+2 GIVN Jessie S.
+2 SURN Lewin
+1 NAME Curly //
+2 GIVN Curly
+2 SURN 
+1 SEX M
+1 BIRT
+2 DATE 11 Mar 1920
+2 PLAC Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 7 Aug 1967
+2 PLAC San Francisco, San Francisco Co, California, USA
+2 SOUR @S184@
+1 REFN 1814
+1 EVEN 566-12-3797
+2 TYPE Social Security Number
+2 SOUR @S184@
+1 RESI 
+2 DATE 1930
+2 PLAC Ericson, Wheeler, Nebraska, USA
+2 SOUR @S176@
+3 PAGE Page 2A
+3 QUAY 3
+1 _UID 173FE087B30D42E89F400F41E37931DD4078
+1 CHAN
+2 DATE 21 Feb 2003
+3 TIME 12:23
+1 FAMC @F559@
+1 NOTE @NI1814@
+0 @NI1814@ NOTE
+1 CONC Had 8 children.
+0 @I1815@ INDI
+1 NAME Unknown /Woods/
+2 GIVN Unknown
+2 SURN Woods
+1 SEX M
+1 REFN 1815
+1 _UID DE60DCE85E3D4CFBA272CC9374F268C5EA32
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F814@
+0 @I1819@ INDI
+1 NAME Albert Carl /Heinz/
+2 GIVN Albert Carl
+2 SURN Heinz
+1 SEX M
+1 BIRT
+2 DATE 12 Sep 1901
+2 PLAC Nebraska, USA
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+2 SOUR @S184@
+1 DEAT
+2 DATE 30 Oct 1960
+2 PLAC El Dorado Co, California, USA
+2 SOUR @S184@
+1 REFN 1819
+1 OCCU 
+2 PLAC Saudi Arabia
+1 EVEN 561-05-0793 
+2 TYPE Social Security Number
+2 SOUR @S184@
+1 RESI 
+2 DATE 1930
+2 PLAC Mud Springs, El Dorado Co, California, USA
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+1 OCCU Farmer
+2 DATE 1930
+2 PLAC Mud Springs, El Dorado Co, California, USA
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+1 _UID A7A8CC8757F142BBB93A7EDDE6E2CD30FA8C
+1 CHAN
+2 DATE 12 Dec 2002
+3 TIME 17:02
+1 FAMS @F816@
+0 @I1820@ INDI
+1 NAME Ray /Thomas/
+2 GIVN Ray
+2 SURN Thomas
+1 SEX M
+1 REFN 1820
+1 _UID 4D3881D7977245E09BB9DD112BDFFBA6F8EC
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F817@
+0 @I1828@ INDI
+1 NAME William /Daniels/
+2 GIVN William
+2 SURN Daniels
+1 SEX M
+1 REFN 1828
+1 _UID FB8F3EF2CFDA4233AA7ECCF2B81E960630E0
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F820@
+0 @I1900@ INDI
+1 NAME Keith Douglas /Morrison/
+2 GIVN Keith Douglas
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 16 Feb 1971
+2 PLAC St. Vincents Hospital, Portland, Multnomah, Oregon, USA
+1 REFN 1900
+1 _UID 6B5E0132B03F41DC879591CEF163A7EA68E1
+1 CHAN
+2 DATE 24 Jan 2004
+3 TIME 11:42
+1 FAMS @F856@
+1 FAMS @F857@
+1 FAMC @F5@
+1 NOTE @NI1900@
+0 @NI1900@ NOTE
+1 CONC Born 4:02pm / Weight 7 lbs 1/2 oz
+0 @I1973@ INDI
+1 NAME Winston /Falls/
+2 GIVN Winston
+2 SURN Falls
+1 SEX M
+1 REFN 1973
+1 _UID 69E3C6AAB9724991AF0377C628CF4607F4AD
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F771@
+0 @I2045@ INDI
+1 NAME Agnes /Usselman/
+2 GIVN Agnes
+2 SURN Usselman
+1 SEX F
+1 BIRT
+2 DATE 15 Jun 1913
+2 PLAC Eureka, McPherson, South Dakota, USA
+2 SOUR @S55@
+2 SOUR @S184@
+1 DEAT
+2 DATE 12 Aug 1975
+2 PLAC Sacramento, California, USA
+2 SOUR @S55@
+2 SOUR @S184@
+1 REFN 2045
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC West Sacramento, Yolo Co, California, USA
+2 SOUR @S55@
+1 EVEN 554-20-1780
+2 TYPE Social Security Number
+2 SOUR @S55@
+2 SOUR @S184@
+1 _UID 68EAD0F71C3F48EEB9F368B8D15EBFE44889
+1 CHAN
+2 DATE 21 Feb 2003
+3 TIME 15:55
+1 FAMS @F819@
+0 @I2276@ INDI
+1 NAME Jack Earl /Morrison/
+2 GIVN Jack Earl
+2 SURN Morrison
+1 SEX M
+1 BIRT
+2 DATE 2 Aug 1917
+2 PLAC Bellingham, Whatcom, Washington, USA
+2 SOUR @S103@
+3 PAGE District 155, Page 2B
+3 QUAY 3
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+2 SOUR @S540@
+1 REFN 2276
+1 RESI 
+2 DATE Abt 1916
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S171@
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 183, Page 2A
+3 QUAY 3
+1 RESI 
+2 DATE 1992
+2 PLAC Bend, Oregon, USA
+2 SOUR @S171@
+1 _UID 89D8704DA6174467A9048C3548B86C53B375
+1 CHAN
+2 DATE 31 May 2004
+3 TIME 21:27
+1 FAMS @F3618@
+1 FAMC @F210@
+0 @I3579@ INDI
+1 NAME Arnold Ernest /Breeden/
+2 GIVN Arnold Ernest
+2 SURN Breeden
+1 NAME Arnold Elsworth //
+2 GIVN Arnold Elsworth
+2 SURN 
+1 SEX M
+1 BIRT
+2 DATE 3 Mar 1885
+2 PLAC Kansas, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+2 SOUR @S212@
+3 PAGE Page 3C
+3 QUAY 3
+1 DEAT
+2 DATE 6 Jan 1918
+2 PLAC Good Samaritan Hospital, Multnomah Co, Portland, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate 39
+3 QUAY 3
+3 DATA
+4 TEXT Listed as Arnold E. Breedan
+1 BURI
+2 PLAC Portland, Multnomah, Oregon, USA
+1 REFN 3579
+1 EVEN 
+2 TYPE Alt. Birth
+2 DATE Mar 1884
+2 PLAC Kansas, USA
+2 SOUR @S519@
+3 PAGE Page 195
+3 QUAY 3
+1 RESI 
+2 DATE 1900
+2 PLAC Union Twp, Garfield Co, Oklahoma, USA
+2 SOUR @S519@
+3 PAGE Page 195
+3 QUAY 3
+1 _UID AB7387158A1442DD9AEA30B4C6F983CEEF3E
+1 CHAN
+2 DATE 12 Sep 2004
+3 TIME 18:46
+1 FAMS @F499@
+0 @I4684@ INDI
+1 NAME Unknown /Neal/
+2 GIVN Unknown
+2 SURN Neal
+1 SEX M
+1 REFN 4684
+1 _UID 373D4C4C57674C0EBE63ED588E49F965BF53
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F815@
+0 @I4796@ INDI
+1 NAME Suanne Marie /Heilman/
+2 GIVN Suanne Marie
+2 SURN Heilman
+1 SEX F
+1 REFN 4796
+1 _UID FB4AD2151274459081CA8EB081D43C31D2A4
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+1 FAMS @F856@
+0 @I4797@ INDI
+1 NAME Monica /Santoyo Lopez/
+2 GIVN Monica
+2 SURN Santoyo Lopez
+1 SEX F
+1 BIRT
+2 DATE 13 Jan 1971
+2 PLAC Celaya, , Guanajuato, México
+1 REFN 4797
+1 _UID C0DCE28EA64D489A8F6F4D12BDB9BFB023BD
+1 CHAN
+2 DATE 19 Nov 2003
+3 TIME 12:56
+1 FAMS @F857@
+0 @I4958@ INDI
+1 NAME Berniece A. /Blanch/
+2 GIVN Berniece A.
+2 SURN Blanch
+1 NAME Allie //
+2 GIVN Allie
+2 SURN 
+1 SEX F
+1 BIRT
+2 DATE 1 Mar 1891
+2 PLAC Ottawa, Franklin, Kansas, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+2 SOUR @S173@
+3 PAGE Certificate 74-06831
+3 QUAY 3
+2 SOUR @S55@
+2 SOUR @S231@
+2 SOUR @S263@
+3 PAGE Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE 4 May 1974
+2 PLAC Seaside, Clatsop, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate 74-06831
+3 QUAY 3
+1 BURI
+2 PLAC Rose City Cemetery, Multnomah Co, Portland, Oregon, USA
+1 REFN 4958
+1 EVEN 543-30-0266
+2 TYPE Social Security Number
+2 SOUR @S55@
+2 SOUR @S231@
+1 RESI 
+2 DATE 1900
+2 PLAC Hayes, Franklin Co, Kansas, USA
+2 SOUR @S263@
+3 PAGE Page 2A
+3 QUAY 3
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 RESI 1638 SE Knight Street
+2 DATE 15 Oct 1945
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S231@
+1 OCCU Employed at Metzer Parker, Woodlark Building
+2 DATE 15 Oct 1945
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S231@
+1 EVEN 
+2 TYPE Last Known Addr
+2 DATE 1974
+2 PLAC Seaside, Clatsop, Oregon, USA
+2 SOUR @S55@
+1 _UID 53F17AA7D7144B9EB14FD9BCBC2B328D74B7
+1 CHAN
+2 DATE 12 Sep 2004
+3 TIME 12:01
+1 FAMS @F499@
+1 FAMS @F3573@
+0 @I9260@ INDI
+1 NAME Lindsey /Unknown/
+2 GIVN Lindsey
+2 SURN Unknown
+1 SEX F
+1 REFN 9260
+1 _UID CCA9FDB4DDCD4801A9A545DFF1C4B02414FD
+1 CHAN
+2 DATE 20 Mar 2003
+3 TIME 15:54
+1 FAMS @F3354@
+0 @I10057@ INDI
+1 NAME Grover Cleveland /Curtner/
+2 GIVN Grover Cleveland
+2 SURN Curtner
+1 NAME Bud //
+2 GIVN Bud
+2 SURN 
+1 SEX M
+1 BIRT
+2 DATE Abt 1886
+2 PLAC Texas, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 DEAT
+2 DATE 27 Sep 1958
+2 PLAC Multnomah Co, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate 10984
+3 QUAY 3
+1 REFN 10057
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 OCCU Contractor (road and highway construction)
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 _UID A260117B856D4081926493798DF4256049B6
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:13
+1 FAMS @F3573@
+0 @I10058@ INDI
+1 NAME Margaret Blanch /Breeden/
+2 GIVN Margaret Blanch
+2 SURN Breeden
+1 SEX F
+1 BIRT
+2 DATE 5 Feb 1915
+2 PLAC Ranch 3 miles east of Monitor, Marion Co, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate Number 90-10555
+3 QUAY 3
+1 DEAT
+2 DATE 21 May 1990
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S55@
+2 SOUR @S173@
+3 PAGE Certificate Number 90-10555
+3 QUAY 3
+1 BURI
+2 NOTE @XI10058@
+1 REFN 10058
+1 EVEN 544-18-1734
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 EVEN 
+2 TYPE Last Known Addr
+2 PLAC Seaside, Clatsop, Oregon, USA
+2 SOUR @S55@
+1 RESI 
+2 DATE 1930
+2 PLAC Portland, Multnomah, Oregon, USA
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 _UID 810E3B80ABEE4D739155B47AC91049EFC831
+1 CHAN
+2 DATE 29 Jan 2003
+3 TIME 11:50
+1 FAMS @F3576@
+1 FAMC @F499@
+0 @XI10058@ NOTE
+1 CONC Ashes Spread over the Pacific Ocean at the Columbia River b
+1 CONC ar
+0 @I10063@ INDI
+1 NAME Carroll W. /Moscoe/
+2 GIVN Carroll W.
+2 SURN Moscoe
+1 SEX M
+1 BIRT
+2 DATE 2 Jun 1905
+2 SOUR @S173@
+3 PAGE Certificate Number 73-03830
+3 QUAY 3
+2 SOUR @S55@
+1 DEAT
+2 DATE 28 Mar 1973
+2 PLAC Clatsop Co, Oregon, USA
+2 SOUR @S173@
+3 PAGE Certificate Number 73-03830
+3 QUAY 3
+2 SOUR @S55@
+1 REFN 10063
+1 EVEN 540-01-5680
+2 TYPE Social Security Number
+2 SOUR @S55@
+1 _UID 75133A5AAB3941318122D7A4F3FD4EE4B25C
+1 CHAN
+2 DATE 13 Dec 2002
+3 TIME 11:52
+1 FAMS @F3576@
+0 @I10137@ INDI
+1 NAME Ronald David /Barrie/
+2 GIVN Ronald David
+2 SURN Barrie
+1 SEX M
+1 REFN 10137
+1 _UID 70977D5900344627AFF6E7EABB9711BE154A
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:18
+1 FAMS @F3611@
+0 @I10158@ INDI
+1 NAME Grace Marie /Unknown/
+2 GIVN Grace Marie
+2 SURN Unknown
+1 SEX F
+1 REFN 10158
+1 _UID 62A3AE6C9F4E431993F8C85CF01A6B24B0DE
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 23:30
+1 FAMS @F3618@
+0 @I12106@ INDI
+1 NAME Unknown /Plotner/
+2 GIVN Unknown
+2 SURN Plotner
+1 SEX M
+1 REFN 12106
+1 _UID BED3C94D2AD44D018642AC86B5B1D8709BEE
+1 CHAN
+2 DATE 20 Feb 2003
+3 TIME 12:35
+1 FAMS @F4232@
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I1101@
+1 MARR 
+2 PLAC Alberta, Canada
+1 CHIL @I1282@
+1 CHIL @I1393@
+1 CHAN
+2 DATE 9 Dec 2002
+3 TIME 14:23
+0 @F5@ FAM
+1 HUSB @I1789@
+1 WIFE @I1687@
+1 DIV Y
+1 MARR 
+2 DATE 25 Apr 1969
+2 PLAC West Minster Church, Portland, Oregon, USA
+1 DIV 
+2 DATE 1977
+1 CHIL @I1900@
+1 CHAN
+2 DATE 11 Dec 2002
+3 TIME 12:41
+0 @F65@ FAM
+1 HUSB @I111@
+1 WIFE @I1393@
+1 MARR 
+2 DATE 1946
+2 SOUR @S174@
+1 CHAN
+2 DATE 8 Dec 2002
+3 TIME 00:01
+0 @F210@ FAM
+1 HUSB @I381@
+1 WIFE @I382@
+1 MARR 
+2 DATE 20 Jun 1906
+2 PLAC Edwall, Lincoln, Washington, USA
+2 SOUR @S104@
+3 PAGE Page 1B
+3 QUAY 3
+1 CHIL @I998@
+1 CHIL @I383@
+1 CHIL @I2276@
+1 CHAN
+2 DATE 26 Feb 2003
+3 TIME 12:23
+0 @F212@ FAM
+1 HUSB @I1181@
+1 WIFE @I383@
+1 DIV Y
+1 MARR 
+2 DATE 4 May 1940
+1 DIV 
+2 DATE 1973
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 23:30
+0 @F436@ FAM
+1 HUSB @I1577@
+1 WIFE @I887@
+1 MARR 
+2 DATE 11 Jul 1987
+2 PLAC Portland, Multnomah, Oregon, USA
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F493@ FAM
+1 HUSB @I998@
+1 WIFE @I1009@
+1 MARR 
+2 DATE 1 Nov 1946
+1 CHIL @I1019@
+1 CHIL @I1789@
+1 CHIL @I1030@
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:19
+0 @F499@ FAM
+1 HUSB @I3579@
+1 WIFE @I4958@
+1 MARR 
+2 DATE 28 Oct 1909
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 CHIL @I1181@
+1 CHIL @I10058@
+1 CHIL @I1009@
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:12
+0 @F540@ FAM
+1 HUSB @I1710@
+1 WIFE @I1101@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F559@ FAM
+1 HUSB @I1155@
+1 WIFE @I1166@
+1 MARR 
+2 DATE 21 Feb 1906
+2 PLAC Ord, Valley Co, Nebraska, USA
+1 CHIL @I1807@
+1 CHIL @I1808@
+1 CHIL @I1809@
+1 CHIL @I1810@
+1 CHIL @I1467@
+1 CHIL @I1811@
+1 CHIL @I1813@
+1 CHIL @I1814@
+1 CHAN
+2 DATE 9 Nov 2002
+3 TIME 09:23
+0 @F614@ FAM
+1 HUSB @I1467@
+1 WIFE @I1282@
+1 DIV Y
+1 MARR 
+2 DATE 10 Mar 1946
+2 PLAC San Francisco, San Francisco Co, California, USA
+1 EVEN 
+2 TYPE Marriage Fact
+2 DATE 1955
+1 CHIL @I1577@
+1 CHIL @I1687@
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F700@ FAM
+1 HUSB @I1467@
+1 WIFE @I1711@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F770@ FAM
+1 HUSB @I1708@
+1 WIFE @I1687@
+1 DIV Y
+1 MARR 
+2 DATE 13 Sep 1987
+2 PLAC Reno, Washoe, Nevada, USA
+1 CHAN
+2 DATE 11 Jan 2003
+3 TIME 17:25
+0 @F771@ FAM
+1 HUSB @I1973@
+1 WIFE @I1687@
+1 DIV Y
+1 MARR 
+2 DATE 1993
+2 PLAC Vancouver, Clark, Washington, USA
+1 EVEN 
+2 TYPE Marriage Fact
+2 DATE 2001
+1 CHAN
+2 DATE 11 Jan 2003
+3 TIME 17:25
+0 @F814@ FAM
+1 HUSB @I1815@
+1 WIFE @I1807@
+1 MARR 
+2 DATE Bef 1930
+2 SOUR @S183@
+3 PAGE Page 11B
+3 QUAY 3
+1 CHAN
+2 DATE 11 Dec 2002
+3 TIME 14:55
+0 @F815@ FAM
+1 HUSB @I4684@
+1 WIFE @I1807@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F816@ FAM
+1 HUSB @I1819@
+1 WIFE @I1808@
+1 MARR 
+2 DATE Abt 1928
+2 SOUR @S182@
+3 PAGE Page 4B
+3 QUAY 3
+1 CHAN
+2 DATE 11 Dec 2002
+3 TIME 14:46
+0 @F817@ FAM
+1 HUSB @I1820@
+1 WIFE @I1809@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F819@ FAM
+1 HUSB @I1811@
+1 WIFE @I2045@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F820@ FAM
+1 HUSB @I1828@
+1 WIFE @I1813@
+1 MARR 
+1 CHAN
+2 DATE 21 Oct 2002
+3 TIME 22:51
+0 @F856@ FAM
+1 HUSB @I1900@
+1 WIFE @I4796@
+1 DIV Y
+1 MARR 
+2 DATE 23 Mar 1990
+2 PLAC Vancouver, Clark, Washington, USA
+1 DIV 
+2 DATE 12 Aug 1993
+2 PLAC Vancouver, Clark, Washington, USA
+2 SOUR @S27@
+1 CHAN
+2 DATE 8 Jan 2003
+3 TIME 12:00
+0 @F857@ FAM
+1 HUSB @I1900@
+1 WIFE @I4797@
+1 MARR 
+2 DATE 16 Dec 2000
+2 PLAC Vancouver, Clark, Washington, USA
+2 SOUR @S100@
+2 SOUR @S101@
+1 CHAN
+2 DATE 19 Nov 2003
+3 TIME 14:51
+0 @F3354@ FAM
+1 HUSB @I1789@
+1 WIFE @I9260@
+1 MARR 
+1 CHAN
+2 DATE 1 Nov 2002
+3 TIME 21:54
+0 @F3573@ FAM
+1 HUSB @I10057@
+1 WIFE @I4958@
+1 MARR 
+2 DATE 14 Oct 1923
+2 SOUR @S172@
+3 PAGE District 151, Page 2A
+3 QUAY 3
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:13
+0 @F3576@ FAM
+1 HUSB @I10063@
+1 WIFE @I10058@
+1 MARR 
+1 CHAN
+2 DATE 8 Dec 2002
+3 TIME 11:33
+0 @F3611@ FAM
+1 HUSB @I10137@
+1 WIFE @I1009@
+1 DIV Y
+1 MARR 
+2 DATE Jul 1938
+1 DIV 
+2 DATE 1946
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 22:19
+0 @F3618@ FAM
+1 HUSB @I2276@
+1 WIFE @I10158@
+1 MARR 
+1 CHAN
+2 DATE 24 Dec 2002
+3 TIME 23:30
+0 @F3905@ FAM
+1 HUSB @I1589@
+1 WIFE @I1687@
+1 MARR 
+2 DATE 11 Jan 2003
+2 PLAC Vancouver, Clark, Washington, USA
+1 CHAN
+2 DATE 11 Jan 2003
+3 TIME 17:24
+0 @F4232@ FAM
+1 HUSB @I12106@
+1 WIFE @I1282@
+1 MARR 
+1 CHAN
+2 DATE 20 Feb 2003
+3 TIME 12:35
+0 @S212@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1880 U.S. Census - Kansas, Lane Co, Township 17
+1 TITL 1880 U.S. Census - Kansas, Lane Co, Township 17
+0 @S526@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1891 U.K. Census - England, Somerset, Lydeard St. Lawrence
+1 TITL U.K. Census - England, Somerset, Lydeard St. Lawrence
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1891C-England-Somerset-LydeardStLawrence-Dist8-10.jpg
+2 TITL Page 10
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S263@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1900 U.S. Census - Kansas, Franklin Co, Hayes
+1 TITL 1900 U.S. Census - Kansas, Franklin Co, Hayes
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1900C-KS-Franklin-Hayes2A.jpg
+2 TITL Page 2A
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S273@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1900 U.S. Census - Kansas, Norton Co, Crystal
+1 TITL 1900 U.S. Census - Kansas, Norton Co, Crystal
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1900C-KS-Norton-Crystal7B.jpg
+2 TITL Page 7B
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S143@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1900 U.S. Census - Nebraska, Custer Co, Sargent Twp
+1 TITL 1900 U.S. Census - Nebraska, Custer Co, Sargent Twp
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1900C-NE-Custer-Sargent170A.jpg
+2 TITL Page 170A
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S519@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1900 U.S. Census - Oklahoma, Garfield Co, Union Twp
+1 TITL 1900 U.S. Census - Oklahoma, Garfield Co, Union Twp
+1 OBJE
+2 FORM gif
+2 FILE C:\Program Files\Legacy\Pictures\1900C-OK-Garfield-Union195.gif
+2 TITL Page 195
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S76@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1901 U.K. Census - England, Somerset, West Bagborough
+1 TITL 1901 U.K. Census - England, Somerset, West Bagborough
+0 @S86@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1910 U.S. Census - Nebraska, Custer Co, Comstock Twp
+1 TITL 1910 U.S. Census - Nebraska, Custer Co, Comstock Twp
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1910C-NE-Custer-Comstock1.jpg
+2 TITL Page 1A
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1910C-NE-Custer-Comstock2.jpg
+2 TITL Page 2A
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1910C-NE-Custer-Comstock6A.jpg
+2 TITL Page 6A
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1910C-NE-Custer-Comstock3A.jpg
+2 TITL Page 3A
+2 _SCBK Y
+2 _TYPE PHOTO
+0 @S104@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1910 U.S. Census - Washington, Lincoln Co, Edwall
+1 TITL 1910 U.S. Census - Washington, Lincoln Co, Edwall
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1910C-WA-Lincoln-Edwall1B.jpg
+2 TITL Page 1B
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S84@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1920 U.S. Census - Nebraska, Custer Co, Comstock Twp
+1 TITL 1930 U.S. Census - Nebraska, Custer Co, Comstock Twp
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1920C-NE-Custer-Comstock1.jpg
+2 TITL Page 6
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1920C-NE-Custer-Comstock216.jpg
+2 TITL Page 216
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1920C-NE-Custer-Comstock111.jpg
+2 TITL Page 111
+2 _SCBK Y
+2 _TYPE PHOTO
+0 @S103@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1920 U.S. Census - Oregon, Multnomah Co, Portland
+1 TITL 1920 U.S. Census - Oregon, Multnomah Co, Portland
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1920C-OR-Multnomah-Portland2B.jpg
+2 TITL Dist 155, Page 2B
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1920C-OR-Multnomah-Portland-Prec274-9A.jpg
+2 TITL Precinct 274, Page 9A
+2 _SCBK Y
+2 _TYPE PHOTO
+0 @S182@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1930 U.S. Census - California, El Dorado Co, Mud Springs
+1 TITL 1930 U.S. Census - California, El Dorado Co, Mud Springs
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-CA-ElDorado-MudSprings4B.jpg
+2 TITL Pge 4B
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S183@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1930 U.S. Census - California, El Dorado Co, Placerville
+1 TITL 1930 U.S. Census - California, El Dorado Co, Placerville
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-CA-ElDorado-Placerville11B.jpg
+2 TITL Page 11B
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S176@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1930 U.S. Census - Nebraska, Wheeler Co, Ericson
+1 TITL 1930 U.S. Census - Nebraska, Wheeler Co, Ericson
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-NE-Wheeler-Ericson2A.jpg
+2 TITL Page 2A
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S172@ SOUR
+1 _MEDI Census/Tax
+1 ABBR 1930 U.S. Census - Oregon, Multnomah Co, Portland
+1 TITL 1930 U.S. Census - Oregon, Multnomah Co, Portland
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-OR-Multnomah-Portland152-2A.jpg
+2 TITL Dist 151, Page 2A
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-OR-Multnomah-Portland183-2A.jpg
+2 TITL Dist 183, Page 2A
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\1930C-OR-Multnomah-Portland498-4B.jpg
+2 TITL Dist 498, Page 4B
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM gif
+2 FILE C:\Program Files\Legacy\Pictures\1930-OR-Portland-Dist461-4A.gif
+2 TITL Dist 461, Page 4A
+2 _SCBK Y
+2 _TYPE PHOTO
+0 @S160@ SOUR
+1 _MEDI Book
+1 ABBR Acme Memories
+1 TITL Acme Memories
+1 PUBL Acme and District Historical Society - Acme, Alberta - 1979
+1 TEXT Page 468
+2 CONT 
+2 CONT Walter Whalley - by Mary Whalley
+2 CONT 
+2 CONT On May 19, 1904 the Cochrane family - consisting of our mot
+2 CONC her, Grace Cochrane, my brother Gordon, and myself, Mary, l
+2 CONC eft Ottawa, Ontario, tot take up homesteads on land ten o
+2 CONC r 12 miles west of what now is Acme.  We were 20 miles eas
+2 CONC t of Crossfield whic was our nearest post office and town
+2 CONC .  When we settled there, there were no roads, no fences, n
+2 CONC o settler's light, except for the three Davis bachelors far
+2 CONC ming on the fourth quarter of our section.  Prior to our ar
+2 CONC rival my older brother, Douglas, had moved to a farm clos
+2 CONC e to Crossfield and we had come to join him.
+2 CONT 
+2 CONT In the year 1910 I married Walter Whalley, living on a home
+2 CONC stead close to Acme with his mother, Mrs. Margaret Whiddon
+2 CONC , and his sister, Nellie Whalley.
+2 CONT 
+2 CONT In the year 1911 or 1912 the Anglican Church, St. John th
+2 CONC e Divine, was built in Acme, all volunteer labour of the me
+2 CONC n.  The women cooked and delivered a hot meal each day to t
+2 CONC he workers.  Our first clergyman was the Rev. W. Attwood wh
+2 CONC o shingled the church roof unassisted.  On completion of th
+2 CONC e building, Bishop Pinkham cam out and with Rev. Attwood as
+2 CONC sisting, our church was dedicated.  Both clergymen stayed o
+2 CONC vernight with us in our home.
+2 CONT 
+2 CONT We farmed at Acme for two more years, then rented the far
+2 CONC m and moved to Calgary where our first two children, Ronni
+2 CONC e and Beth were born, Ronnie in 1915 and Beth in 1917.  I
+2 CONC n 1922 we moved back to Acme where our third child, Margare
+2 CONC t, was born on the farm.  The winters were very, very sever
+2 CONC e.  When Margaret was born we had to put her in the warmin
+2 CONC g oven of our cookstove to keep her warm enough.
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\AcmeMemories_Cover.jpg
+2 TITL Cover
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\AcmeMemories_Title.jpg
+2 TITL Title
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\AcmeMemories_P468.jpg
+2 TITL Page 468
+2 _SCBK Y
+2 _TYPE PHOTO
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\AcmeMemories_P469.jpg
+2 TITL Page 469
+2 _SCBK Y
+2 _TYPE PHOTO
+0 @S10@ SOUR
+1 ABBR Ancestry.com Database
+1 TITL Ancestry.com Database
+1 REPO @R63@
+0 @S231@ SOUR
+1 _MEDI Vital
+1 ABBR Application for SSN - Berniece Blanch
+1 TITL Application for SSN - Berniece Blanch
+0 @S11@ SOUR
+1 _MEDI Vital
+1 ABBR Application for SSN - Julianna Breeden
+1 TITL Application for SSN - Julianna Breeden
+0 @S289@ SOUR
+1 _MEDI Vital
+1 ABBR Birth Certificate - Stephen Forrest Lewin
+1 TITL Birth Certificate - Stephen Forrest Lewin
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\BirthCert-StephenLewin.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S158@ SOUR
+1 _MEDI Internet
+1 ABBR British Columbia Cemetary Finding Aid Database
+1 TITL British Columbia Cemetary Finding Aid Database
+1 REPO @R92@
+0 @S14@ SOUR
+1 _MEDI Internet
+1 ABBR British Columbia Death Index - 1872 to 1981
+1 TITL British Columbia Death Index - 1872 to 1981
+1 REPO @R93@
+0 @S193@ SOUR
+1 _MEDI Internet
+1 ABBR California Birth Index, 1905-1995
+1 TITL California Birth Index, 1905-1995
+1 REPO @R96@
+0 @S184@ SOUR
+1 _MEDI Internet
+1 ABBR California Deaths, 1940-1997
+1 TITL California Deaths, 1940-1997
+1 REPO @R85@
+0 @S20@ SOUR
+1 ABBR Census
+1 TITL Census
+1 REPO @R19@
+0 @S288@ SOUR
+1 _MEDI Vital
+1 ABBR Certificate of Naturalization - Estelle Meredith Cochrane
+1 TITL Certificate of Naturalization - Estelle Meredith Cochrane
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\Naturalization-EstelleMerid.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S151@ SOUR
+1 _MEDI Vital
+1 ABBR Death Certificate of John Douglas Cochrane
+1 TITL Death Certificate of John Douglas Cochrane
+1 OBJE
+2 FORM tif
+2 FILE C:\Program Files\Legacy\Pictures\D1941-09-591161.tif
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S27@ SOUR
+1 ABBR Divorce Certificate
+1 TITL Divorce Certificate
+0 @S101@ SOUR
+1 _MEDI Vital
+1 ABBR Marriage Application of Keith Morrison and Monica Santoyo
+1 TITL Marriage Application of Keith Morrison and Monica Santoyo
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\morrison_santoyo_marr_app.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S100@ SOUR
+1 _MEDI Vital
+1 ABBR Marriage Certificate of Keith Morrison and Monica Santoyo
+1 TITL Marriage Certificate of Keith Morrison and Monica Santoyo
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\morrison_santoyo_marr_cert.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S507@ SOUR
+1 _MEDI Military
+1 ABBR Notice of Separation from US Naval Service - Claude William Lewin
+1 TITL Notice of Separation from US Naval Service - Claude Willia
+2 CONC m Lewin
+0 @S170@ SOUR
+1 _MEDI Newspaper
+1 ABBR Obituary of Bern Breeden
+1 TITL The Oregonian
+1 PUBL August 27, 1992
+1 TEXT Page F10
+2 CONT A memorial service for Bern Breeden of Seaside will be a
+2 CONC t 2 p.m. Saturday in the Hughes Ransom Mortuary in Seaside. 
+2 CONT Mr. Breeden died Monday in a Portland care center. He was 8
+2 CONC 2. 
+2 CONT He was born in Oklahoma in 1910, but moved to Portland a
+2 CONC s a child. He later worked as a construction supervisor fo
+2 CONC r Portland Road and Driveway Co. for more than 30 years. 
+2 CONT He was a former member of the U.S. Coast Guard Auxiliary. 
+2 CONT Survivors include a sister, Julianna Morrison of Portland
+2 CONC , and a brother, B.J. Curtner of Wilsonville. 
+2 CONT Disposition was by cremation. 
+2 CONT The family suggests that remembrances be contributions t
+2 CONC o a favorite charity.
+0 @S171@ SOUR
+1 _MEDI Newspaper
+1 ABBR Obituary of Evelyn Paula Breeden
+1 TITL The Oregonian
+1 PUBL August 5, 1992
+1 TEXT Page B8:
+2 CONT A memorial service for Evelyn Paula Breeden, a North Portla
+2 CONC nd resident, will be at 1 p.m. Wednesday in the chapel of R
+2 CONC ose City Cemetery and Funeral Home. 
+2 CONT Mrs. Breeden died of lung cancer Sunday in a Portland car
+2 CONC e center. She was 82. 
+2 CONT She was born March 19, 1910, in Edwall, Wash., and moved t
+2 CONC o Oregon with her family at the age of 6. Mrs. Breeden wa
+2 CONC s a homemaker. She had lived in North Portland for many yea
+2 CONC rs and briefly had done laboratory work for Good Samarita
+2 CONC n Hospital & Medical Center. 
+2 CONT Mrs. Breeden is survived by her brother, Jack E. Morrison o
+2 CONC f Bend. 
+2 CONT Disposition was by cremation. 
+2 CONT The family suggests that remembrances be contributions t
+2 CONC o a favorite charity.
+0 @S174@ SOUR
+1 _MEDI Newspaper
+1 ABBR Obituary of Muriel Alice Nims
+1 TITL The Oregonian
+1 PUBL November 17, 1996
+1 TEXT Page C15:
+2 CONT A memorial service will be at 3 p.m. Tuesday, Nov. 19, 1996
+2 CONC , in Rose City Cemetery and Funeral Home for Muriel Alice N
+2 CONC ims, who died Nov. 14 of complications of Parkinson's disea
+2 CONC se at age 79. 
+2 CONT Mrs. Nims was born Aug. 10, 1917, in Calgary, Alberta. In 1
+2 CONC 946, she married C.H. Nims. 
+2 CONT Surviving are her husband; daughter, Cheryl D. Rosen of Por
+2 CONC tland; sister, Estelle Lewin of Portland; one grandchild; a
+2 CONC nd two great-grandchildren. 
+2 CONT Disposition will be by cremation. The family suggests remem
+2 CONC brances to Parkinson Center of Oregon in care of Oregon Hea
+2 CONC lth Sciences University Department of Neurology L-226.
+0 @S173@ SOUR
+1 _MEDI Internet
+1 ABBR Oregon Death Index
+1 TITL Oregon Death Index
+1 REPO @R85@
+1 OBJE
+2 FORM jpg
+2 FILE C:\Program Files\Legacy\Pictures\DeathCert-LeahMaryEdwards.jpg
+2 _SCBK Y
+2 _PRIM Y
+2 _TYPE PHOTO
+0 @S528@ SOUR
+1 _MEDI Vital
+1 ABBR Parish Registers, Somerset 16 May 1573 - 8 Oct 1903
+1 TITL Parish Registers, Somerset 16 May 1573 - 8 Oct 1903
+1 REPO @R118@
+0 @S55@ SOUR
+1 ABBR Social Security Death Index
+1 TITL Social Security Death Index
+1 REPO @R63@
+0 @S59@ SOUR
+1 ABBR The Comstock News
+1 TITL The Comstock News
+1 PUBL Nebraska
+1 REPO @R19@
+0 @S63@ SOUR
+1 ABBR Tombstone Inscription
+1 TITL Tombstone Inscription
+1 REPO @R19@
+0 @S540@ SOUR
+1 _MEDI Internet
+1 ABBR Washington State Birth Index 1907-19
+1 TITL Washington State Birth Index 1907-19
+1 REPO @R85@
+0 @S73@ SOUR
+1 _MEDI Internet
+1 ABBR World War II Honor Roll - ABMC
+1 TITL World War II Honor Roll - American Battle Monuments Commiss
+2 CONC ion
+1 AUTH AMERICAN BATTLE MONUMENTS COMMISSION
+1 PUBL online <http://americanwardead.com/listww.asp>
+0 @R19@ REPO
+1 NAME Keith Morrison
+1 ADDR 
+2 _NAME Keith Morrison
+1 _EMAIL keithm@infused.org
+0 @R63@ REPO
+1 NAME Not Given (See Notes)
+1 ADDR 
+2 _NAME Not Given (See Notes)
+1 NOTE http://www.vanderfordfamily.com
+0 @R85@ REPO
+1 NAME Ancestry.com
+1 ADDR 
+2 _NAME Ancestry.com
+1 _URL www.ancestry.com
+0 @R92@ REPO
+1 NAME n/a
+1 ADDR 
+2 _NAME n/a
+1 _URL http://www.islandnet.com/cgi-bin/ms2/rsd/search
+0 @R93@ REPO
+1 NAME BC Archives
+1 ADDR 
+2 _NAME BC Archives
+1 _URL http://www.bcarchives.gov.bc.ca
+0 @R96@ REPO
+1 NAME Vitalsearch California Birth Index
+1 ADDR 
+2 _NAME Vitalsearch California Birth Index
+1 _URL http://www.vitalsearch-ca.com/gen/ca/_vitals/cabiygen.htm
+0 @R118@ REPO
+1 NAME n/a
+1 ADDR 
+2 _NAME n/a
+1 _URL Parish Registers, Somerset 16 May 1573 - 8 Oct 1903
+0 TRLR
