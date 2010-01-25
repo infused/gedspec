@@ -36,8 +36,8 @@ module Gedspec
       extract 'OBJE', xref
     end
     
-    def extract(tag, xref = nil)
-      record_start = xref ? /^0 @(#{xref})@ #{tag}/ : /^0 #{tag}/
+    def extract(tag, xref = nil, level = 0)
+      record_start = xref ? /^#{level} @(#{xref})@ #{tag}/ : /^0 #{tag}/
       
       snippet = []
       @file.each do |line|
@@ -45,9 +45,9 @@ module Gedspec
           @found = true
           snippet << line
           next
-        elsif @found && line !~ /^0/
+        elsif @found && line !~ /^#{level}/
           snippet << line
-        elsif @found && line =~ /^0/
+        elsif @found && line =~ /^#{level}/
           break
         end
       end

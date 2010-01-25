@@ -1,6 +1,7 @@
 module Gedspec
-  class Individual
+  class Individual < GedcomSection
     def initialize(gedcom_record)
+      super
       @gedcom_record = gedcom_record
     end
     
@@ -11,6 +12,5 @@ module Gedspec
     def name
       names.first
     end
-    
   end
 end
