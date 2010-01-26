@@ -2,7 +2,7 @@ require 'test_helper'
 
 module Gedspec
   class GedcomSection
-    include Gedspec::GedcomStackParser
+    include Gedspec::Gedcom::StackParser
   end
 end
 

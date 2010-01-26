@@ -1,13 +1,13 @@
 require 'test_helper'
 
-class Gedspec::GedcomTest < Test::Unit::TestCase
+class Gedspec::Gedcom::FileTest < Test::Unit::TestCase
   
   def setup
-    @gedcom = Gedspec::Gedcom.new(fixture_file('/tcg551.ged'))
+    @gedcom = Gedspec::Gedcom::File.new(fixture_file('/tcg551.ged'))
   end
   
   should 'load' do
-    assert_kind_of Gedspec::Gedcom, @gedcom
+    assert_kind_of Gedspec::Gedcom::File, @gedcom
   end
   
   should 'extract head snippet' do
