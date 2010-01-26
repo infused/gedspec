@@ -54,6 +54,22 @@ module Gedspec
         level && level.to_i
       end
       
+      def update_attr(data, params)
+          data = params[:proc].call(data) if params[:proc]
+          
+          var = instance_variable_get(params[:attr])
+          case params[:method]
+          when :cont
+            if var
+              data = var + "\n" + data
+            end
+          when :conc
+            data = (var || "") + data
+          end
+          instance_variable_set(params[:attr], data)
+        end
+      # end
+      
     end
   end
 end

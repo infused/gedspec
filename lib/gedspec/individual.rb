@@ -8,16 +8,8 @@ module Gedspec
     def initialize(gedcom_structure = nil, *args)
       super
       
-      tag_start 'INDI', :get_xref
-      tag_start 'INDI/RESN', :get_resn
-    end
-    
-    def get_xref(data, params)
-      @xref = data
-    end
-    
-    def get_resn(date, params)
-      @resn = date
+      tag_start 'INDI', :update_attr, {:attr => :@xref}
+      tag_start 'INDI/RESN', :get_resn, {:attr => :@resn}
     end
     
     def names
