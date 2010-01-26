@@ -7,6 +7,7 @@ module Gedspec
 end
 
 class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
+  
   should 'load' do
     @section = Gedspec::GedcomSection.new
     assert_kind_of Gedspec::GedcomSection, @section
