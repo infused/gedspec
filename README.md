@@ -10,14 +10,14 @@ The long term aims of gedspec are:
   - Output to JSON and XML
   - Read and write support
   
-## Resources:
+## Resources
 
   - GEDCOM 5.5 specification (Paul McBride's HTML version with corrections added from the GEDCOM 5.5 Errata Sheet)
     http://homepages.rootsweb.ancestry.com/~pmcbride/gedcom/55gctoc.htm
   - 5.5.1 Draft
     http://phpgedview.sourceforge.net/ged551-5.pdf
     
-## Other implementations:
+## Other implementations
 
   - Perl Gedcom
     http://search.cpan.org/dist/Gedcom/lib/Gedcom.pm

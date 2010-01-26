@@ -58,7 +58,7 @@ module Gedspec
           data = params[:proc].call(data) if params[:proc]
           
           var = instance_variable_get(params[:attr])
-          case params[:method]
+          case params[:append]
           when :cont
             if var
               data = var + "\n" + data
