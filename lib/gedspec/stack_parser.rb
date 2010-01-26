@@ -1,9 +1,9 @@
 module Gedspec
-  class GedcomSection
-    def initialize(*args)
+  module GedcomStackParser
+    def initialize(gedcom_structure = nil, *args)
       @start_callbacks  = {}
       @end_callbacks = {}
-      @content = ''
+      @gedcom_structure = gedcom_structure
     end
 
     def tag_start(context, callback_method, params = nil)
@@ -25,11 +25,11 @@ module Gedspec
       end
     end
     
-    def parse(structure)
+    def parse
       context_stack = []
       data_stack = []
-      current_level = get_level(structure)
-      structure.each do |line|
+      current_level = get_level(@gedcom_structure)
+      @gedcom_structure.each do |line|
         level, tag, rest = line.strip.split(' ', 3)
         while level.to_i <= current_level
           tag_handler(:end, context_stack, data_stack.pop)

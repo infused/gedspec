@@ -1,9 +1,6 @@
 module Gedspec
-  class Individual < GedcomSection
-    def initialize(gedcom_record)
-      super
-      @gedcom_record = gedcom_record
-    end
+  class Individual
+    include Gedspec::GedcomStackParser
     
     def names
       @names ||= []
