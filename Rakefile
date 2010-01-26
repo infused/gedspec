@@ -5,6 +5,7 @@ require 'rubygems'
 require 'ansel_iconv'
 require 'rake/testtask'
 require 'jeweler'
+# require 'gedspec'
 
 Jeweler::Tasks.new do |p|
   p.name = 'gedspec'
@@ -23,4 +24,9 @@ Rake::TestTask.new(:test) do |t|
   t.pattern = 'test/**/*_test.rb'
   t.verbose = true
   t.libs << 'test'
+end
+
+desc "Open an irb session preloaded with this library"
+task :console do
+  sh "irb -rubygems -I lib -r gedspec.rb"
 end
