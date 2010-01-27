@@ -4,7 +4,7 @@ module Gedspec
     attr_accessor :resn
     attr_accessor :sex
     
-    def initialize(gedcom_structure = nil, *args)
+    def initialize(*args)
       super
       
       tag_start 'INDI', :update_attr, {:attr => :@xref}
