@@ -1,24 +1,36 @@
 module Gedspec
-  module Gedcom
+  module Gedcom    
     module StackParser
       
+      @@start_callbacks  = {}
+      @@end_callbacks = {}
+      
+      def self.included(base)
+        base.extend ClassMethods
+      end
+      
+      module ClassMethods
+        
+        def parse_attribute(name, tag)
+          
+        end
+      end
+      
       def initialize(gedcom_structure = nil, *args)
-        @start_callbacks  = {}
-        @end_callbacks = {}
         @gedcom_structure = gedcom_structure
       end
 
       def tag_start(context, callback_method, params = nil)
-        @start_callbacks[context.downcase] = [callback_method, params]
+        @@start_callbacks[context.downcase] = [callback_method, params]
       end
 
       def tag_end(context, callback_method, params = nil)
-        @end_callbacks[context.downcase] = [callback_method, params]
+        @@end_callbacks[context.downcase] = [callback_method, params]
       end
     
       def tag_handler(type, context, data)
         tag = context.join('/').downcase
-        callback, params = instance_variable_get("@#{type}_callbacks")[tag]
+        callback, params = self.class.send(:class_variable_get, "@@#{type}_callbacks")[tag]
         case callback
         when Symbol
           send(callback, data, params)

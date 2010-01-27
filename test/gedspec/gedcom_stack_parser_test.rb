@@ -28,7 +28,7 @@ class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
   context '#tag_start' do
     should 'register a callback in @start_callbacks' do
       @section = Gedspec::GedcomSection.new
-      @section.class.send(:attr_accessor, :start_callbacks)
+      @section.class.send(:class_variable_get, :@@start_callbacks)
       @section.tag_start 'INDI', :create_individual, :a => 1, :b => 2
       assert_equal({"indi" => [:create_individual, {:a => 1, :b => 2}]}, @section.start_callbacks)
     end
