@@ -1,10 +1,8 @@
 module Gedspec
-  class Individual
+  class Individual < Gedspec::Gedcom::StackParser
     attr_accessor :xref
     attr_accessor :resn
     attr_accessor :sex
-    
-    include Gedspec::Gedcom::StackParser
     
     def initialize(gedcom_structure = nil, *args)
       super

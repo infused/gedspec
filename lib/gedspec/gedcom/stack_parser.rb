@@ -1,6 +1,6 @@
 module Gedspec
   module Gedcom
-    module StackParser
+    class StackParser
       
       def initialize(gedcom_structure = nil, *args)
         @start_callbacks  = {}
