@@ -2,6 +2,7 @@ module Gedspec
   class Individual
     attr_accessor :xref
     attr_accessor :resn
+    attr_accessor :sex
     
     include Gedspec::Gedcom::StackParser
     
@@ -10,6 +11,7 @@ module Gedspec
       
       tag_start 'INDI', :update_attr, {:attr => :@xref}
       tag_start 'INDI/RESN', :get_resn, {:attr => :@resn}
+      tag_start 'INDI/SEX', :get_sex, {:attr => :@sex}
     end
     
     def names

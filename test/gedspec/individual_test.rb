@@ -23,4 +23,8 @@ class Gedspec::IndividualTest < Test::Unit::TestCase
     assert_equal '@I1@', @indi.xref
   end
   
+  should 'parse sex' do
+    @indi = Gedspec::Individual.new("0 @I1@ INDI\n1 SEX M")
+  end
+  
 end
