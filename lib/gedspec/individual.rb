@@ -8,8 +8,8 @@ module Gedspec
       super
       
       tag_start 'INDI', :update_attr, {:attr => :@xref}
-      tag_start 'INDI/RESN', :get_resn, {:attr => :@resn}
-      tag_start 'INDI/SEX', :get_sex, {:attr => :@sex}
+      tag_start 'INDI/RESN', :update_attr, {:attr => :@resn}
+      tag_start 'INDI/SEX', :update_attr, {:attr => :@sex}
     end
     
     def names

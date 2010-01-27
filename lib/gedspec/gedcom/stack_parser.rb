@@ -8,6 +8,21 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
       
+      def self.ged_attr(context, attribute, options = {})
+        define_method "#{attribute}=" do |value|
+          instance_variable_set("@#{attribute}", value)
+        end
+        
+        proc = Proc.new {|data, options| send("#{attribute}=", data)}
+        StackParser.start_callbacks[context.downcase] = [proc, options]
+      end
+      
+      def self.parse(gedcom_content)
+        parser = new(gedcom_content)
+        parser.parse
+        parser
+      end
+      
       def initialize(*args)
         @gedcom_structure = args.first
       end

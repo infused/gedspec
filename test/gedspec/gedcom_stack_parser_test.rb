@@ -25,23 +25,23 @@ class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
     end
   end
   
-  context '#tag_start' do
-    should 'register a callback in @start_callbacks' do
-      @section = Gedspec::GedcomSection.new
-      
-      @section.tag_start 'INDI', :create_individual, :a => 1, :b => 2
-      assert_equal({"indi" => [:create_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.start_callbacks)
-    end
-  end
-  
-  context '#tag_end' do
-    should 'register a callback in @end_callbacks' do
-      @section = Gedspec::GedcomSection.new
-      
-      @section.tag_end 'INDI', :update_individual, :a => 1, :b => 2
-      assert_equal({"indi" => [:update_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.end_callbacks)
-    end
-  end
+  # context '#tag_start' do
+  #   should 'register a callback in @start_callbacks' do
+  #     @section = Gedspec::GedcomSection.new
+  #     
+  #     @section.tag_start 'INDI', :create_individual, :a => 1, :b => 2
+  #     assert_equal({"indi" => [:create_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.start_callbacks)
+  #   end
+  # end
+  # 
+  # context '#tag_end' do
+  #   should 'register a callback in @end_callbacks' do
+  #     @section = Gedspec::GedcomSection.new
+  #     
+  #     @section.tag_end 'INDI', :update_individual, :a => 1, :b => 2
+  #     assert_equal({"indi" => [:update_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.end_callbacks)
+  #   end
+  # end
   
   context '#parse' do
     should 'call "tag start" callbacks' do
