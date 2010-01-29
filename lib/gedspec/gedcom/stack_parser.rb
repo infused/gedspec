@@ -10,9 +10,7 @@ module Gedspec
       
       def self.ged_attr(context, attribute, options = {})
         attr_accessor attribute.to_sym
-        
-        options[:attr] = "@#{attribute}".to_sym
-        @@start_callbacks[context.downcase] = [:update_attr, options]
+        @@start_callbacks[context.downcase] = [:update_attr, {:attr => "@#{attribute}".to_sym}]
       end
       
       def self.parse(gedcom_content)
