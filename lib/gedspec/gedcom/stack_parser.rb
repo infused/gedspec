@@ -59,7 +59,7 @@ module Gedspec
       end
     
       def get_level(structure)
-        level = structure.scan(/^\d+/)[0]
+        level = structure[/\d+/, 0]
         level && level.to_i
       end
       
