@@ -28,7 +28,7 @@ class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
     should 'call "tag start" callbacks' do
       @section = Gedspec::GedcomSection.new('0 @I1@ INDI')
       
-      @section.expects(:update_attr).with('@I1@', {:attr => :@xref})
+      @section.expects(:update_attr).with('@I1@', {:attr => :xref})
       @section.parse
     end
     

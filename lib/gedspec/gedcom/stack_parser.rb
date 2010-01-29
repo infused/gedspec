@@ -10,7 +10,7 @@ module Gedspec
       
       def self.ged_attr(context, attribute, options = {})
         attr_accessor attribute.to_sym
-        @@start_callbacks[context.downcase] = [:update_attr, {:attr => "@#{attribute}".to_sym}]
+        @@start_callbacks[context.downcase] = [:update_attr, {:attr => attribute.to_sym}]
       end
       
       def self.parse(gedcom_content)
@@ -64,7 +64,7 @@ module Gedspec
       def update_attr(data, params)
         data = params[:proc].call(data) if params[:proc]
         
-        var = instance_variable_get(params[:attr])
+        var = send(params[:attr])
         case params[:append]
         when :cont
           if var
@@ -73,7 +73,7 @@ module Gedspec
         when :conc
           data = (var || "") + data
         end
-        instance_variable_set(params[:attr], data)
+        send("#{params[:attr]}=", data)
       end
       
     end

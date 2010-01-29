@@ -3,13 +3,19 @@ module Gedspec
     ged_attr 'INDI', :xref
     ged_attr 'INDI/RESN', :resn
     ged_attr 'INDI/SEX', :sex
+    ged_attr 'INDI/NAME', :name     # TODO: must support multiple names
     
-    def names
-      @names ||= []
+    def initialize(*args)
+      super
+      @name = []
+    end
+    
+    def name=(new_name)
+      @name << new_name
     end
     
     def name
-      names.first
+      @name[0]
     end
   end
 end
