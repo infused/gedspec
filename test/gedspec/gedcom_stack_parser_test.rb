@@ -7,7 +7,6 @@ module Gedspec
 end
 
 class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
-  
   should 'load' do
     @section = Gedspec::GedcomSection.new
     assert_kind_of Gedspec::GedcomSection, @section
@@ -25,39 +24,14 @@ class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
     end
   end
   
-  # context '#tag_start' do
-  #   should 'register a callback in @start_callbacks' do
-  #     @section = Gedspec::GedcomSection.new
-  #     
-  #     @section.tag_start 'INDI', :create_individual, :a => 1, :b => 2
-  #     assert_equal({"indi" => [:create_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.start_callbacks)
-  #   end
-  # end
-  # 
-  # context '#tag_end' do
-  #   should 'register a callback in @end_callbacks' do
-  #     @section = Gedspec::GedcomSection.new
-  #     
-  #     @section.tag_end 'INDI', :update_individual, :a => 1, :b => 2
-  #     assert_equal({"indi" => [:update_individual, {:a => 1, :b => 2}]}, Gedspec::GedcomSection.end_callbacks)
-  #   end
-  # end
-  
   context '#parse' do
     should 'call "tag start" callbacks' do
       @section = Gedspec::GedcomSection.new('0 @I1@ INDI')
-      @section.tag_start 'INDI', :start_indi, {:a => 1, :b => 2}
       
-      @section.expects(:start_indi).with('@I1@', {:a => 1, :b => 2})
+      @section.expects(:update_attr).with('@I1@', {:attr => :@xref})
       @section.parse
     end
     
-    should 'call "tag end" callbacks' do
-      @section = Gedspec::GedcomSection.new("0 @I1@ INDI\n1 NAME JOHN DOE\n0 TRLR")
-      @section.tag_end 'INDI', :end_indi, {:a => 1, :b => 2}
-      
-      @section.expects(:end_indi).with('@I1@', {:a => 1, :b => 2})
-      @section.parse
-    end
+    should 'call "tag end" callbacks'
   end
 end

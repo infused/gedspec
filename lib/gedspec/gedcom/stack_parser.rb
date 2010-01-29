@@ -9,12 +9,10 @@ module Gedspec
       @@end_callbacks = {}
       
       def self.ged_attr(context, attribute, options = {})
-        define_method "#{attribute}=" do |value|
-          instance_variable_set("@#{attribute}", value)
-        end
+        attr_accessor attribute.to_sym
         
-        proc = Proc.new {|data, options| send("#{attribute}=", data)}
-        StackParser.start_callbacks[context.downcase] = [proc, options]
+        options[:attr] = "@#{attribute}".to_sym
+        @@start_callbacks[context.downcase] = [:update_attr, options]
       end
       
       def self.parse(gedcom_content)
@@ -26,15 +24,7 @@ module Gedspec
       def initialize(*args)
         @gedcom_structure = args.first
       end
-
-      def tag_start(context, callback_method, params = nil)
-        StackParser.start_callbacks[context.downcase] = [callback_method, params]
-      end
-
-      def tag_end(context, callback_method, params = nil)
-        StackParser.end_callbacks[context.downcase] = [callback_method, params]
-      end
-    
+      
       def tag_handler(type, context, data)
         tag = context.join('/').downcase
         callback, params = self.class.send("#{type}_callbacks")[tag]
@@ -45,7 +35,7 @@ module Gedspec
           callback.call(data, params)
         end
       end
-    
+      
       def parse
         context_stack = []
         data_stack = []
