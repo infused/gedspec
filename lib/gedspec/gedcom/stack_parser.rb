@@ -10,7 +10,9 @@ module Gedspec
       
       def self.ged_attr(context, attribute, options = {})
         attr_accessor attribute.to_sym
-        @@start_callbacks[context.downcase] = [:update_attr, {:attr => attribute.to_sym}]
+        params = {:attr => attribute.to_sym}
+        params.merge!(options)
+        @@start_callbacks[context.downcase] = [:update_attr, params]
       end
       
       def self.parse(gedcom_content)
@@ -21,6 +23,7 @@ module Gedspec
       
       def initialize(*args)
         @gedcom_structure = args.first
+        define_ged_attributes
       end
       
       def tag_handler(type, context, data)
@@ -74,6 +77,42 @@ module Gedspec
           data = (var || "") + data
         end
         send("#{params[:attr]}=", data)
+      end
+      
+      def define_ged_attributes
+        attributes = []
+        plural_attributes = []
+        start_callbacks.each do |callback|
+          options = callback[1][1]
+          if options[:many]
+            attributes << options[:attr] 
+            plural_attributes << options[:many]
+          end
+        end
+        
+        attributes.uniq.each_with_index do |attribute, index|
+          plural_attribute = plural_attributes[index]
+          instance_variable_set "@#{attribute}", []
+          
+          class_eval do
+            # def name
+            define_method attribute.to_sym do
+              instance_variable_get("@#{attribute}")[0]
+            end
+            
+            # def names
+            define_method plural_attribute.to_sym do
+              instance_variable_get("@#{attribute}")
+            end
+            
+            # def name=(value)
+            define_method "#{attribute}=".to_sym do |value|
+              array = instance_variable_get("@#{attribute}")
+              array << value
+              instance_variable_set("@#{attribute}", array)
+            end
+          end
+        end
       end
       
     end
