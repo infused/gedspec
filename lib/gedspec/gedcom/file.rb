@@ -38,22 +38,12 @@ module Gedspec
       end
       
       def record_regex(tag, xref, level)
-        xref ? /^#{level} @(#{xref})@ #{tag}/ : /^0 #{tag}/
+        xref ? /(^#{level} @#{xref}@ #{tag}.+?)^#{level}/m : /(^0 #{tag}.+?)^0/m
       end
     
       def extract(tag, xref = nil, level = 0)
-        record_start_regex = record_regex(tag, xref, level)
-        level_regex = /^#{level}/
-        
-        snippet = []
-        @file.each do |line|
-          if line =~ record_start_regex || !snippet.empty? && line !~ level_regex
-            snippet << line
-          elsif !snippet.empty? && line =~ level_regex
-            break
-          end
-        end
-        snippet.join
+        results = @file.read.scan(record_regex(tag, xref, level))
+        results.size == 1 ? results.flatten[0] : results
       end
     
     end
