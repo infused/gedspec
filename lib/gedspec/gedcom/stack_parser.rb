@@ -12,7 +12,7 @@ module Gedspec
         attr_accessor attribute.to_sym
         params = {:attr => attribute.to_sym}
         params.merge!(options)
-        @@start_callbacks[context.downcase] = [:update_attr, params]
+        @@start_callbacks[context] = [:update_attr, params]
       end
       
       def self.parse(gedcom_content)
@@ -27,7 +27,7 @@ module Gedspec
       end
       
       def tag_handler(type, context, data)
-        tag = context.join('/').downcase
+        tag = context.join('/')
         callback, params = self.class.send("#{type}_callbacks")[tag]
         case callback
         when Symbol
