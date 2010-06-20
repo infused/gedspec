@@ -1,7 +1,6 @@
 module Gedspec
   module Gedcom
     class File
-      
       def initialize(filename)
         @file = ::File.open(filename, 'r')
       end
@@ -37,19 +36,20 @@ module Gedspec
       def obje(xref)
         extract 'OBJE', xref
       end
+      
+      def record_regex(tag, xref, level)
+        xref ? /^#{level} @(#{xref})@ #{tag}/ : /^0 #{tag}/
+      end
     
       def extract(tag, xref = nil, level = 0)
-        record_start = xref ? /^#{level} @(#{xref})@ #{tag}/ : /^0 #{tag}/
-      
+        record_start_regex = record_regex(tag, xref, level)
+        level_regex = /^#{level}/
+        
         snippet = []
         @file.each do |line|
-          if line =~ record_start
-            @found = true
+          if line =~ record_start_regex || !snippet.empty? && line !~ level_regex
             snippet << line
-            next
-          elsif @found && line !~ /^#{level}/
-            snippet << line
-          elsif @found && line =~ /^#{level}/
+          elsif !snippet.empty? && line =~ level_regex
             break
           end
         end
