@@ -94,7 +94,7 @@ module Gedspec
           plural_attribute = plural_attributes[index]
           instance_variable_set "@#{attribute}", []
           
-          class_eval do
+          self.class.class_eval do
             # def name
             define_method attribute.to_sym do
               instance_variable_get("@#{attribute}")[0]
