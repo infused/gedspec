@@ -8,7 +8,7 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
       
-      def self.ged_attr(context, attribute, options = {})
+      def self.attr(context, attribute, options = {})
         attr_accessor attribute.to_sym
         
         if options[:alias]
