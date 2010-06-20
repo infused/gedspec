@@ -3,6 +3,6 @@ module Gedspec
     ged_attr 'INDI', :xref
     ged_attr 'INDI/RESN', :resn
     ged_attr 'INDI/SEX', :sex
-    ged_attr 'INDI/NAME', :name, :many => 'names'
+    ged_attr 'INDI/NAME', :name, :many => true
   end
 end

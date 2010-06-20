@@ -86,7 +86,7 @@ module Gedspec
           options = callback[1][1]
           if options[:many]
             attributes << options[:attr] 
-            plural_attributes << options[:many]
+            plural_attributes << options[:attr].to_s.pluralize
           end
         end
         
