@@ -1,4 +1,4 @@
-require 'active_support'
+require 'active_support/inflector'
 
 require 'gedspec/gedcom/stack_parser'
 require 'gedspec/gedcom/file'
