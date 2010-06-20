@@ -24,17 +24,27 @@ class Gedspec::IndividualTest < Test::Unit::TestCase
   end
   
   should 'parse resn' do
-    @indi = Gedspec::Individual.parse("0 @I1@ INDI\n1 RESN locked")
+    @indi = Gedspec::Individual.parse <<-END
+      0 @I1@ INDI
+      1 RESN locked
+    END
     assert_equal 'locked', @indi.resn
+    assert_equal 'locked', @indi.restriction_notice
   end
   
   should 'parse sex' do
-    @indi = Gedspec::Individual.parse("0 @I1@ INDI\n1 SEX M")
+    @indi = Gedspec::Individual.parse <<-END
+      0 @I1@ INDI
+      1 SEX M
+    END
     assert_equal 'M', @indi.sex
   end
   
   should 'parse name' do
-    @indi = Gedspec::Individual.parse("0 @I1@ INDI\n1 NAME John /Hancock/")
+    @indi = Gedspec::Individual.parse <<-END
+      0 @I1@ INDI
+      1 NAME John /Hancock/
+    END
     assert_equal 'John /Hancock/', @indi.name
   end
   

@@ -10,9 +10,14 @@ module Gedspec
       
       def self.ged_attr(context, attribute, options = {})
         attr_accessor attribute.to_sym
+        
+        if options[:alias]
+          alias_method options[:alias].to_sym, attribute.to_sym
+          alias_method "#{options[:alias]}=".to_sym, "#{attribute}".to_sym
+        end
+        
         params = {:attr => attribute.to_sym}
-        params.merge!(options)
-        @@start_callbacks[context] = [:update_attr, params]
+        @@start_callbacks[context] = [:update_attr, params.merge!(options)]
       end
       
       def self.parse(gedcom_content)
@@ -23,7 +28,7 @@ module Gedspec
       
       def initialize(*args)
         @gedcom_structure = args.first
-        define_ged_attributes
+        define_many_attributes
       end
       
       def tag_handler(type, context, data)
@@ -76,16 +81,17 @@ module Gedspec
         when :conc
           data = (var || "") + data
         end
+        
         send("#{params[:attr]}=", data)
       end
       
-      def define_ged_attributes
+      def define_many_attributes
         attributes = []
         plural_attributes = []
         start_callbacks.each do |callback|
           options = callback[1][1]
           if options[:many]
-            attributes << options[:attr] 
+            attributes << options[:attr]
             plural_attributes << options[:attr].to_s.pluralize
           end
         end
