@@ -1,6 +1,6 @@
 module Gedspec
   module Gedcom
-    class StackParser
+    class Structure
       
       cattr_accessor :start_callbacks
       @@start_callbacks = {}

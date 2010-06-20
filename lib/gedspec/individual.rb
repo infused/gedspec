@@ -1,5 +1,5 @@
 module Gedspec
-  class Individual < Gedspec::Gedcom::StackParser
+  class Individual < Gedspec::Gedcom::Structure
     attr 'INDI',      :xref
     attr 'INDI/RESN', :resn, :alias => :restriction_notice
     attr 'INDI/SEX',  :sex

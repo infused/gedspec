@@ -1,12 +1,12 @@
 require 'test_helper'
 
 module Gedspec
-  class GedcomSection < Gedspec::Gedcom::StackParser
+  class GedcomSection < Gedspec::Gedcom::Structure
     
   end
 end
 
-class Gedspec::GedcomStackParserTest < Test::Unit::TestCase
+class Gedspec::GedcomStructureTest < Test::Unit::TestCase
   should 'load' do
     @section = Gedspec::GedcomSection.new
     assert_kind_of Gedspec::GedcomSection, @section
