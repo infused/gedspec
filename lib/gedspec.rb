@@ -1,11 +1,12 @@
 require 'active_support/inflector'
 
 module Gedspec
-  autoload :Individual,   'gedspec/individual'
-  autoload :PersonalName, 'gedspec/personal_name'
+  autoload :Individual,       'gedspec/individual'
+  autoload :PersonalName,     'gedspec/personal_name'
+  autoload :ReferenceNumber,  'gedspec/reference_number'
   
   module Gedcom
-    autoload :Structure, 'gedspec/gedcom/structure'
-    autoload :File,      'gedspec/gedcom/file'
+    autoload :Structure,      'gedspec/gedcom/structure'
+    autoload :File,           'gedspec/gedcom/file'
   end
 end
