@@ -1,10 +1,17 @@
 require File.join(File.dirname(__FILE__), '..', 'test_helper')
 
 class Gedspec::IndividualTest < Test::Unit::TestCase
-  
-  should 'load' do
-    @indi = Gedspec::Individual.new
-    assert_kind_of Gedspec::Individual, @indi
+  def setup
+    @indi = Gedspec::Individual.parse <<-END
+      0 @I1@ INDI
+      1 RESN locked
+      1 SEX M
+      1 RFN R55
+      1 AFN AFN4
+      1 REFN T13
+      1 REFN L98
+      1 RIN A1
+    END
   end
   
   should 'have many names' do
@@ -18,26 +25,36 @@ class Gedspec::IndividualTest < Test::Unit::TestCase
   end
   
   should 'parse xref' do
-    @indi = Gedspec::Individual.new('0 @I1@ INDI')
-    @indi.parse
     assert_equal '@I1@', @indi.xref
   end
   
   should 'parse resn' do
-    @indi = Gedspec::Individual.parse <<-END
-      0 @I1@ INDI
-      1 RESN locked
-    END
     assert_equal 'locked', @indi.resn
     assert_equal 'locked', @indi.restriction_notice
   end
   
   should 'parse sex' do
-    @indi = Gedspec::Individual.parse <<-END
-      0 @I1@ INDI
-      1 SEX M
-    END
     assert_equal 'M', @indi.sex
+  end
+  
+  should 'parse rfn' do
+    assert_equal 'R55', @indi.rfn
+  end
+  
+  should 'parse afn' do
+    assert_equal 'AFN4', @indi.afn
+  end
+  
+  should 'have a primary refn' do
+    assert_equal 'T13', @indi.refn 
+  end
+  
+  should "have multiple refn's" do
+    assert_equal %w(T13 L98), @indi.refns
+  end
+  
+  should 'parse rin' do
+    assert_equal 'A1', @indi.rin
   end
   
   should 'parse name' do

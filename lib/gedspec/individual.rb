@@ -3,6 +3,10 @@ module Gedspec
     attr 'INDI',      :xref
     attr 'INDI/RESN', :resn, :alias => :restriction_notice
     attr 'INDI/SEX',  :sex
-    attr 'INDI/NAME', :name, :many => true
+    attr 'INDI/NAME', :name, :many => true # TODO: convert to PersonalName
+    attr 'INDI/RFN',  :rfn
+    attr 'INDI/AFN',  :afn
+    attr 'INDI/REFN', :refn,  :many => true
+    attr 'INDI/RIN',  :rin
   end
 end
