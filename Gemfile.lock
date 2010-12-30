@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ged2csv (1.0.0)
+    gedspec (1.0.0)
       activesupport (~> 2.3.5)
 
 GEM
@@ -23,5 +23,5 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 2.3.5)
-  ged2csv!
+  gedspec!
   rspec (~> 2.3.0)

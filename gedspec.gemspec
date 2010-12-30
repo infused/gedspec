@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'gedspec/version'
 
 Gem::Specification.new do |s|
-  s.name = 'ged2csv'
+  s.name = 'gedspec'
   s.summary = 'Gedspec: The ruby gedcom parser'
   s.description = 'Gedspec: The ruby gedcom parser'
   s.version = Gemspec::VERSION
