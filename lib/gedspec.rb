@@ -1,4 +1,4 @@
-require 'active_support/inflector'
+require 'active_support'
 
 module Gedspec
   autoload :Individual,       'gedspec/individual'
