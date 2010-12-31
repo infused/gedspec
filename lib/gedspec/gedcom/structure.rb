@@ -22,9 +22,7 @@ module Gedspec
       end
       
       def self.parse(gedcom_content)
-        parser = new(gedcom_content)
-        parser.parse
-        parser
+        new(gedcom_content).parse
       end
       
       def initialize(*args)
@@ -63,6 +61,7 @@ module Gedspec
         
           tag_handler(:start, context_stack, data_stack.last)
         end
+        self
       end
     
       def get_level(structure)
