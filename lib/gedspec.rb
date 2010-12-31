@@ -6,6 +6,7 @@ module Gedspec
   autoload :ReferenceNumber,  'gedspec/reference_number'
   
   module Gedcom
+    autoload :Extract,  'gedspec/gedcom/extract'
     autoload :Structure,      'gedspec/gedcom/structure'
     autoload :File,           'gedspec/gedcom/file'
   end
