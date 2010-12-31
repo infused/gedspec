@@ -2,7 +2,6 @@ PROJECT_ROOT = File.expand_path(File.dirname(__FILE__))
 $: << File.join(PROJECT_ROOT, 'lib')
 
 require 'rubygems'
-require 'ansel_iconv'
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new :spec do |t|
