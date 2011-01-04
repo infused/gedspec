@@ -11,16 +11,15 @@ describe Gedspec::Individual do
       1 REFN T13
       1 REFN L98
       1 RIN A1
+      1 NAME John /Hancock/
     END
   end
   
   it 'has many names' do
-    @indi = Gedspec::Individual.new
     @indi.names.should be_kind_of(Array)
   end
   
   it 'has a primary name' do
-    @indi = Gedspec::Individual.new
     @indi.name.should == @indi.names.first
   end
   
@@ -58,10 +57,6 @@ describe Gedspec::Individual do
   end
   
   it 'parses name' do
-    @indi = Gedspec::Individual.parse <<-END
-      0 @I1@ INDI
-      1 NAME John /Hancock/
-    END
     @indi.name.should == 'John /Hancock/'
   end
 end
