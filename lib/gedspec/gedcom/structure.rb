@@ -17,8 +17,8 @@ module Gedspec
           alias_method "#{options[:alias]}=".to_sym, "#{attribute}".to_sym
         end
         
-        params = {:attr => attribute.to_sym}
-        @@start_callbacks[context] = [:update_attr, params.merge!(options)]
+        params = {:attr => attribute.to_sym}.merge!(options)
+        @@start_callbacks[context] = [:update_attr, params]
       end
       
       def self.parse(gedcom_content)
@@ -88,7 +88,7 @@ module Gedspec
       def define_many_attributes
         attributes = []
         plural_attributes = []
-        start_callbacks.each do |callback|
+        start_callbacks.each do |callback|          
           options = callback[1][1]
           if options[:many]
             attributes << options[:attr]
