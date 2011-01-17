@@ -6,7 +6,7 @@ module Gedspec
     attr 'INDI/NAME', :name, :many => true # TODO: convert to PersonalName
     attr 'INDI/RFN',  :rfn
     attr 'INDI/AFN',  :afn
-    attr 'INDI/REFN', :refn,  :many => true
+    attr 'INDI/REFN', :refn, :many => true # TODO: convert to ReferenceNumber
     attr 'INDI/RIN',  :rin
   end
 end
