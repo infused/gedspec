@@ -9,7 +9,7 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
       
-      def self.attr(context, attribute, options = {})
+      def self.attribute(context, attribute, options = {})
         attr_accessor attribute.to_sym
         
         if options[:alias]
@@ -18,7 +18,7 @@ module Gedspec
         end
         
         params = {:attr => attribute.to_sym}.merge!(options)
-        @@start_callbacks[context] = [:update_attr, params]
+        @@start_callbacks[context] = [:update_attribute, params]
       end
       
       def self.parse(gedcom_content)
@@ -69,7 +69,7 @@ module Gedspec
         level && level.to_i
       end
       
-      def update_attr(data, params)
+      def update_attribute(data, params)
         data = params[:proc].call(data) if params[:proc]
         
         var = send(params[:attr])

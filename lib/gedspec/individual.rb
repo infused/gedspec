@@ -1,12 +1,12 @@
 module Gedspec
   class Individual < Gedspec::Gedcom::Structure
-    attr 'INDI',      :xref
-    attr 'INDI/RESN', :resn, :alias => :restriction_notice
-    attr 'INDI/SEX',  :sex
-    attr 'INDI/NAME', :name, :many => true # TODO: convert to PersonalName
-    attr 'INDI/RFN',  :rfn
-    attr 'INDI/AFN',  :afn
-    attr 'INDI/REFN', :refn, :many => true # TODO: convert to ReferenceNumber
-    attr 'INDI/RIN',  :rin
+    attribute 'INDI',      :xref
+    attribute 'INDI/RESN', :resn, :alias => :restriction_notice
+    attribute 'INDI/SEX',  :sex
+    attribute 'INDI/NAME', :name, :many => true # TODO: convert to PersonalName
+    attribute 'INDI/RFN',  :rfn
+    attribute 'INDI/AFN',  :afn
+    attribute 'INDI/REFN', :refn, :many => true # TODO: convert to ReferenceNumber
+    attribute 'INDI/RIN',  :rin
   end
 end

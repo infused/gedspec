@@ -1,6 +1,6 @@
 module Gedspec
   class ReferenceNumber < Gedspec::Gedcom::Structure
-    attr 'REFN',      :refn
-    attr 'REFN/TYPE', :type
+    attribute 'REFN',      :refn
+    attribute 'REFN/TYPE', :type
   end
 end
