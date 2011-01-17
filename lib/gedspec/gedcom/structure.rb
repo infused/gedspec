@@ -9,15 +9,15 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
       
-      def self.attribute(context, attribute, options = {})
-        attr_accessor attribute.to_sym
+      def self.attribute(context, name, options = {})
+        attr_accessor name.to_sym
         
         if options[:alias]
-          alias_method options[:alias].to_sym, attribute.to_sym
-          alias_method "#{options[:alias]}=".to_sym, "#{attribute}".to_sym
+          alias_method options[:alias].to_sym, name.to_sym
+          alias_method "#{options[:alias]}=".to_sym, "#{name}".to_sym
         end
         
-        params = {:attr => attribute.to_sym}.merge!(options)
+        params = {:attr => name.to_sym}.merge!(options)
         @@start_callbacks[context] = [:update_attribute, params]
       end
       
