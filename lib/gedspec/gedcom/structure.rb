@@ -9,15 +9,14 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
       
+      class_inheritable_accessor :associations
+      self.associations = {}
+      
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
         
-        if options[:alias]
-          alias_method options[:alias].to_sym, name.to_sym
-          alias_method "#{options[:alias]}=".to_sym, "#{name}".to_sym
-        end
-        
         params = {:attr => name.to_sym}.merge!(options)
+        self.associations[name] = {:context => context, :options => params}
         @@start_callbacks[context] = [:update_attribute, params]
       end
       
@@ -88,27 +87,16 @@ module Gedspec
       def define_many_attributes
         attributes = []
         plural_attributes = []
-        start_callbacks.each do |callback|          
-          options = callback[1][1]
-          if options[:many]
-            attributes << options[:attr]
-            plural_attributes << options[:attr].to_s.pluralize
-          end
-        end
-        
-        attributes.uniq.each_with_index do |attribute, index|
-          plural_attribute = plural_attributes[index]
+        associations.each_key do |name|
+          association = associations[name]
+          options = association[:options]
+          attribute = options[:attr]
+
           instance_variable_set "@#{attribute}", []
-          
           self.class.class_eval do
             # def name
             define_method attribute.to_sym do
               instance_variable_get("@#{attribute}")[0]
-            end
-            
-            # def names
-            define_method plural_attribute.to_sym do
-              instance_variable_get("@#{attribute}")
             end
             
             # def name=(value)
@@ -116,6 +104,13 @@ module Gedspec
               array = instance_variable_get("@#{attribute}")
               array << value
               instance_variable_set("@#{attribute}", array)
+            end
+            
+            # def names
+            if options[:many]
+              define_method attribute.to_s.pluralize.to_sym do
+                instance_variable_get("@#{attribute}")
+              end
             end
           end
         end
