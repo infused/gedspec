@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Gedspec::ReferenceNumber do
   before do
-    @refn = Gedspec::ReferenceNumber.parse <<-END
+    @refn = Gedspec::ReferenceNumber.new <<-END
       1 REFN T13
       2 TYPE TurboGed
     END

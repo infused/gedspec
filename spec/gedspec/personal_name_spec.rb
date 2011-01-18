@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Gedspec::PersonalName do
   before do
-    @name = Gedspec::PersonalName.parse <<-END
+    @name = Gedspec::PersonalName.new <<-END
       1 NAME John "Jack" de /Hancock/ Jr.
       2 NPFX Lt.
       2 GIVN John

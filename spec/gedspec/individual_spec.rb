@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Gedspec::Individual do
   before do
-    @indi = Gedspec::Individual.parse <<-END
+    @indi = Gedspec::Individual.new <<-END
       0 @I1@ INDI
       1 RESN locked
       1 SEX M
@@ -16,11 +16,7 @@ describe Gedspec::Individual do
   end
   
   it 'has many names' do
-    @indi.names.should be_kind_of(Array)
-  end
-  
-  it 'has a primary name' do
-    @indi.name.should == @indi.names.first
+    @indi.name.should == 'John /Hancock/'
   end
   
   it 'parses xref' do
@@ -29,7 +25,6 @@ describe Gedspec::Individual do
   
   it 'parses resn' do
     @indi.resn.should == 'locked'
-    # @indi.restriction_notice.should == 'locked'
   end
   
   it 'parses sex' do
@@ -44,12 +39,8 @@ describe Gedspec::Individual do
     @indi.afn.should == 'AFN4'
   end
   
-  it 'has a primary refn' do
-    @indi.refn.should == 'T13'
-  end
-  
-  it "has multiple refn's" do
-    @indi.refns.should == %w(T13 L98)
+  it 'parses refn' do
+    @indi.refn.should == ['T13', 'L98']
   end
   
   it 'parses rin' do

@@ -10,6 +10,12 @@ module Gedspec
         results = @file.read.scan(record_regex(tag, xref, level))
         results.size == 1 ? results.flatten[0] : results.flatten
       end
+      
+      def extract_attribute(tag, top_level = false)
+        level = top_level ? @gedcom_structure.to_i : @gedcom_structure.to_i + 1
+        results = @gedcom_structure.scan(/#{level} #{tag} (.*)/)
+        results.size == 1 ? results.flatten[0] : results.flatten
+      end
     end
   end
 end
