@@ -90,26 +90,25 @@ module Gedspec
         associations.each_key do |name|
           association = associations[name]
           options = association[:options]
-          attribute = options[:attr]
 
-          instance_variable_set "@#{attribute}", []
+          instance_variable_set "@#{name}", []
           self.class.class_eval do
             # def name
-            define_method attribute.to_sym do
-              instance_variable_get("@#{attribute}")[0]
+            define_method name.to_sym do
+              instance_variable_get("@#{name}")[0]
             end
             
             # def name=(value)
-            define_method "#{attribute}=".to_sym do |value|
-              array = instance_variable_get("@#{attribute}")
+            define_method "#{name}=".to_sym do |value|
+              array = instance_variable_get("@#{name}")
               array << value
-              instance_variable_set("@#{attribute}", array)
+              instance_variable_set("@#{name}", array)
             end
             
             # def names
             if options[:many]
-              define_method attribute.to_s.pluralize.to_sym do
-                instance_variable_get("@#{attribute}")
+              define_method name.to_s.pluralize.to_sym do
+                instance_variable_get("@#{name}")
               end
             end
           end
