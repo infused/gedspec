@@ -1,13 +1,9 @@
 require 'active_support/core_ext'
 
-module Gedspec
-  autoload :Individual,       'gedspec/individual'
-  autoload :PersonalName,     'gedspec/personal_name'
-  autoload :ReferenceNumber,  'gedspec/reference_number'
-  
-  module Gedcom
-    autoload :Extract,        'gedspec/gedcom/extract'
-    autoload :Structure,      'gedspec/gedcom/structure'
-    autoload :File,           'gedspec/gedcom/file'
-  end
-end
+require 'gedspec/gedcom/extract'
+require 'gedspec/gedcom/structure'
+require 'gedspec/gedcom/file'
+
+require 'gedspec/individual'
+require 'gedspec/personal_name'
+require 'gedspec/reference_number'
