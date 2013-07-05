@@ -12,15 +12,15 @@ Gem::Specification.new do |s|
   s.authors = ["Keith Morrison"]
   s.email = 'keithm@infused.org'
   s.homepage = 'http://github.com/infused/gedspec'
-  
+
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE']
   s.files = Dir['[A-Z]*', '{docs,lib,spec}/**/*']
   s.test_files = Dir.glob('spec/**/*_spec.rb')
   s.require_paths = ['lib']
-  
+
   s.required_rubygems_version = '>= 1.3.0'
-  s.add_dependency 'activesupport', '~> 3.0.10'
+  s.add_dependency 'activesupport', '= 3.0.10'
   s.add_dependency 'i18n', '~> 0.5.0'
   s.add_development_dependency 'rake', '~> 0.9.2'
   s.add_development_dependency 'rspec', '~> 2.7.0'
