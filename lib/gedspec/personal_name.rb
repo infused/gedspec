@@ -1,3 +1,5 @@
+# TODO: define custom parser for name without name parts specified individually
+
 module Gedspec
   class PersonalName < Gedspec::Gedcom::Structure
     attribute 'NAME', :name, :top_level => true
@@ -7,7 +9,5 @@ module Gedspec
     attribute 'SPFX', :spfx
     attribute 'SURN', :surn
     attribute 'NSFX', :nsfx
-    
-    # TODO: define custom parser for name without name parts specified individually
   end
 end
