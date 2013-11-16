@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe Gedspec::PersonalName do
-  before do
-    @name = Gedspec::PersonalName.new <<-END
+  let(:name) do
+    Gedspec::PersonalName.new <<-END
       1 NAME John "Jack" de /Hancock/ Jr.
       2 NPFX Lt.
       2 GIVN John
@@ -12,32 +12,32 @@ describe Gedspec::PersonalName do
       2 NSFX Jr.
     END
   end
-  
+
   it 'parses name' do
-    @name.name.should == 'John "Jack" de /Hancock/ Jr.'
+    expect(name.name).to eq 'John "Jack" de /Hancock/ Jr.'
   end
-  
+
   it 'parses npfx' do
-    @name.npfx.should == 'Lt.'
+    expect(name.npfx).to eq 'Lt.'
   end
-  
+
   it 'parses givn' do
-    @name.givn.should == 'John'
+    expect(name.givn).to eq 'John'
   end
-  
+
   it 'parses nick' do
-    @name.nick.should == 'Jack'
+    expect(name.nick).to eq 'Jack'
   end
-  
+
   it 'parses spfx' do
-    @name.spfx.should == 'de'
+    expect(name.spfx).to eq 'de'
   end
-  
+
   it 'parses surname' do
-    @name.surn.should == 'Hancock'
+    expect(name.surn).to eq 'Hancock'
   end
-  
+
   it 'parses nsfx' do
-    @name.nsfx.should == 'Jr.'
+    expect(name.nsfx).to eq 'Jr.'
   end
 end

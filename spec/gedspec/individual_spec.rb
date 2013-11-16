@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe Gedspec::Individual do
-  before do
-    @indi = Gedspec::Individual.new <<-END
+  let(:indi) do
+    Gedspec::Individual.new <<-END
       0 @I1@ INDI
       1 RESN locked
       1 SEX M
@@ -14,40 +14,40 @@ describe Gedspec::Individual do
       1 NAME John /Hancock/
     END
   end
-  
+
   it 'has many names' do
-    @indi.name.should == 'John /Hancock/'
+    expect(indi.name).to eq 'John /Hancock/'
   end
-  
+
   it 'parses xref' do
-    @indi.xref.should == '@I1@'
+    expect(indi.xref).to eq '@I1@'
   end
-  
+
   it 'parses resn' do
-    @indi.resn.should == 'locked'
+    expect(indi.resn).to eq 'locked'
   end
-  
+
   it 'parses sex' do
-    @indi.sex.should == 'M'
+    expect(indi.sex).to eq 'M'
   end
-  
+
   it 'parses rfn' do
-    @indi.rfn.should == 'R55'
+    expect(indi.rfn).to eq 'R55'
   end
-  
+
   it 'parses afn' do
-    @indi.afn.should == 'AFN4'
+    expect(indi.afn).to eq 'AFN4'
   end
-  
+
   it 'parses refn' do
-    @indi.refn.should == ['T13', 'L98']
+    expect(indi.refn).to eq ['T13', 'L98']
   end
-  
+
   it 'parses rin' do
-    @indi.rin.should == 'A1'
+    expect(indi.rin).to eq 'A1'
   end
-  
+
   it 'parses name' do
-    @indi.name.should == 'John /Hancock/'
+    expect(indi.name).to eq 'John /Hancock/'
   end
 end

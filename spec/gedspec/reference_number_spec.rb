@@ -1,18 +1,18 @@
 require 'spec_helper'
 
 describe Gedspec::ReferenceNumber do
-  before do
-    @refn = Gedspec::ReferenceNumber.new <<-END
+  let(:refn) do
+    Gedspec::ReferenceNumber.new <<-END
       1 REFN T13
       2 TYPE TurboGed
     END
   end
 
   it 'parses refn' do
-    @refn.refn.should == 'T13'
+    expect(refn.refn).to eq 'T13'
   end
 
   it 'parses type' do
-    @refn.type.should == 'TurboGed'
+    expect(refn.type).to eq 'TurboGed'
   end
 end
