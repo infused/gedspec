@@ -2,7 +2,12 @@ module Gedspec
   module Gedcom
     module Extract
       def record_regex(tag, xref, level)
-        xref ? /(^#{level} @#{xref}@ #{tag}.+?)^#{level}/m : /(^0 (?:@[^@]+@ |)#{tag}.+?)(?=^0)/m
+        if xref
+          # For example: 0 @I1@ INDI
+          /(^#{level} @#{xref}@ #{tag}.+?)^#{level}/m
+        else
+          /(^0 (?:@[^@]+@ |)#{tag}.+?)(?=^0)/m
+        end
       end
     
       def extract(tag, xref = nil, level = 0)
