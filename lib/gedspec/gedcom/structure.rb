@@ -3,41 +3,41 @@ module Gedspec
   module Gedcom
     class Structure
       include Gedspec::Gedcom::Extract
-      
+
       cattr_accessor :start_callbacks
       @@start_callbacks = {}
-      
+
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
-      
+
       class_inheritable_accessor :associations
       self.associations = {}
-      
+
       def xref
         @gedcom_structure[/0 (@.+?@)/, 1]
       end
-      
+
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
-        
+
         params = {:attr => name.to_sym}.merge!(options)
         self.associations[name] = {:context => context, :options => params}
         @@start_callbacks[context] = [:update_attribute, params]
       end
-      
+
       def initialize(*args)
         @gedcom_structure = args.first
         define_many_attributes
       end
-    
+
       def get_level(structure)
         level = structure[/\d+/, 0]
         level && level.to_i
       end
-      
+
       def update_attribute(data, params)
         data = params[:proc].call(data) if params[:proc]
-        
+
         var = send(params[:attr])
         case params[:append]
         when :cont
@@ -47,13 +47,11 @@ module Gedspec
         when :conc
           data = (var || "") + data
         end
-        
+
         send("#{params[:attr]}=", data)
       end
-      
+
       def define_many_attributes
-        attributes = []
-        plural_attributes = []
         associations.each_key do |name|
           association = associations[name]
           options = association[:options]
@@ -66,7 +64,7 @@ module Gedspec
           end
         end
       end
-      
+
     end
   end
 end
