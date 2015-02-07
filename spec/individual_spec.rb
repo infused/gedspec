@@ -12,11 +12,12 @@ describe Gedspec::Individual do
       1 REFN L98
       1 RIN A1
       1 NAME John /Hancock/
+      1 NAME Jonathan /Hancock/
     END
   end
 
   it 'has many names' do
-    expect(indi.name).to eq 'John /Hancock/'
+    expect(indi.name).to eq ['John /Hancock/', 'Jonathan /Hancock/']
   end
 
   it 'parses xref' do
@@ -45,9 +46,5 @@ describe Gedspec::Individual do
 
   it 'parses rin' do
     expect(indi.rin).to eq 'A1'
-  end
-
-  it 'parses name' do
-    expect(indi.name).to eq 'John /Hancock/'
   end
 end
