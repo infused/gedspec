@@ -1,5 +1,5 @@
 module Gedspec
-  class Head < Gedspec::Gedcom::Structure
+  class Header < Gedspec::Gedcom::Structure
     attribute 'CHAR', :char
   end
 end

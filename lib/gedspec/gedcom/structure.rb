@@ -13,10 +13,6 @@ module Gedspec
       class_inheritable_accessor :associations
       self.associations = {}
 
-      def xref
-        @gedcom_structure[/0 (@.+?@)/, 1]
-      end
-
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
 
@@ -28,6 +24,14 @@ module Gedspec
       def initialize(*args)
         @gedcom_structure = args.first
         define_many_attributes
+      end
+
+      def to_gedcom
+        @gedcom_structure
+      end
+
+      def xref
+        @gedcom_structure[/0 (@.+?@)/, 1]
       end
 
       def get_level(structure)

@@ -8,7 +8,7 @@ module Gedspec
       end
 
       def head
-        Gedspec::Head.new(extract('HEAD'))
+        Gedspec::Header.new(extract('HEAD'))
       end
 
       def subm(xref = nil)
