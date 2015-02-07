@@ -16,8 +16,8 @@ module Gedspec
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
 
-        params = {:attr => name.to_sym}.merge!(options)
-        self.associations = associations.merge({name => {:context => context, :options => params}})
+        params = {attr: name.to_sym}.merge!(options)
+        self.associations = associations.merge({name => {context: context, options: params}})
         @@start_callbacks[context] = [:update_attribute, params]
       end
 

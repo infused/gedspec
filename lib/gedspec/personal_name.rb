@@ -2,7 +2,7 @@
 
 module Gedspec
   class PersonalName < Gedspec::Gedcom::Structure
-    attribute 'NAME', :name, :top_level => true
+    attribute 'NAME', :name, top_level: true
     attribute 'NPFX', :npfx
     attribute 'GIVN', :givn
     attribute 'NICK', :nick
