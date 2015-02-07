@@ -7,11 +7,6 @@ describe Gedspec::Gedcom::File do
     expect(file.head.to_gedcom).to eq fixture_content('tcg551_head.ged')
   end
 
-  # TODO move to head specs
-  it 'extracts the character set' do
-    expect(file.head.char).to eq 'ANSEL'
-  end
-
   it 'extracts a specific subm snippet' do
     expect(file.subm('SM2')).to eq fixture_content('tcg551_sm2.ged')
   end
