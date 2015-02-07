@@ -10,6 +10,6 @@ RSpec.configure do |config|
   end
 
   def fixture_content(filename)
-    File.read fixture_file(filename)
+    File.read(fixture_file(filename)).force_encoding('ASCII-8BIT')
   end
 end
