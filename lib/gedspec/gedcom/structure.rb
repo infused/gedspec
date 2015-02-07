@@ -10,14 +10,14 @@ module Gedspec
       cattr_accessor :end_callbacks
       @@end_callbacks = {}
 
-      class_inheritable_accessor :associations
+      class_attribute :associations
       self.associations = {}
 
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
 
         params = {:attr => name.to_sym}.merge!(options)
-        self.associations[name] = {:context => context, :options => params}
+        self.associations = associations.merge({name => {:context => context, :options => params}})
         @@start_callbacks[context] = [:update_attribute, params]
       end
 

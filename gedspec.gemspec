@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.required_rubygems_version = '>= 1.3.0'
-  s.add_dependency 'activesupport', '= 3.0.10'
-  s.add_dependency 'i18n', '~> 0.5.0'
+  s.add_dependency 'activesupport', '~> 3.2.0'
+  s.add_dependency 'i18n', '~> 0.6.0'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
 end
