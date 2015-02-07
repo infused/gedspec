@@ -1,4 +1,6 @@
 gemspec
 source 'https://rubygems.org'
 
-gem 'byebug'
+group :development do
+  gem 'byebug'
+end
