@@ -4,7 +4,12 @@ describe Gedspec::Gedcom::File do
   let(:file) { Gedspec::Gedcom::File.new(fixture_file('/tcg551.ged')) }
 
   it 'extracts head snippet' do
-    expect(file.head).to eq fixture_content('tcg551_head.ged')
+    expect(file.head.to_gedcom).to eq fixture_content('tcg551_head.ged')
+  end
+
+  # TODO move to head specs
+  it 'extracts the character set' do
+    expect(file.head.char).to eq 'ANSEL'
   end
 
   it 'extracts a specific subm snippet' do
