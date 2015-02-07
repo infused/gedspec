@@ -45,4 +45,8 @@ describe Gedspec::Header do
   it 'parses char' do
     expect(head.char).to eq 'ANSEL'
   end
+
+  it 'parses file' do
+    expect(head.file).to eq 'TGC55C.ged'
+  end
 end
