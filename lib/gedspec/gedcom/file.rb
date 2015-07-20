@@ -38,7 +38,6 @@ module Gedspec
       def obje(xref = nil)
         extract 'OBJE', xref
       end
-
     end
   end
 end

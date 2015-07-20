@@ -1,24 +1,31 @@
-# TODO split this class into Structure and SubStructure
+# TODO: split this class into Structure and SubStructure
 module Gedspec
   module Gedcom
     class Structure
       include Gedspec::Gedcom::Extract
 
-      cattr_accessor :start_callbacks
-      @@start_callbacks = {}
+      class << self
+        def start_callbacks
+          @start_callbacks ||= {}
+        end
 
-      cattr_accessor :end_callbacks
-      @@end_callbacks = {}
+        def end_callbacks
+          @end_callbacks ||= {}
+        end
 
-      class_attribute :associations
-      self.associations = {}
+        def associations
+          @associations ||= {}
+        end
+
+        attr_writer :associations
+      end
 
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
 
         params = {attr: name.to_sym}.merge!(options)
-        self.associations = associations.merge({name => {context: context, options: params}})
-        @@start_callbacks[context] = [:update_attribute, params]
+        self.associations = associations.merge(name => {context: context, options: params})
+        start_callbacks[context] = [:update_attribute, params]
       end
 
       def initialize(*args)
@@ -49,19 +56,18 @@ module Gedspec
             data = var + "\n" + data
           end
         when :conc
-          data = (var || "") + data
+          data = (var || '') + data
         end
 
         send("#{params[:attr]}=", data)
       end
 
       def define_many_attributes
-        associations.each_key do |name|
-          association = associations[name]
-          options = association[:options]
-
+        self.class.associations.each do |name, association|
           instance_variable_set "@#{name}", []
-          self.class.class_eval do
+
+          options = association[:options]
+          class_eval do
             define_method name.to_sym do
               extract_attribute association[:context], options[:top_level]
             end
