@@ -42,11 +42,19 @@ describe Gedspec::Header do
     END
   end
 
-  it 'parses char' do
-    expect(head.char).to eq 'ANSEL'
+  it 'parses dest' do
+    expect(head.dest).to eq 'ANSTFILE'
   end
 
   it 'parses file' do
     expect(head.file).to eq 'TGC55C.ged'
+  end
+
+  it 'parses copr' do
+    expect(head.copr).to eq "� 1997 by H. Eichmann, parts � 1999-2000 by J. A. Nairn."
+  end
+
+  it 'parses char' do
+    expect(head.char).to eq 'ANSEL'
   end
 end
