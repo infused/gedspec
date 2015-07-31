@@ -4,8 +4,22 @@ describe Gedspec::File do
   let(:file) { Gedspec::File.new(fixture_file('/tgc551.ged')) }
 
   describe '#header' do
-    it 'returns an instance of Gedspec::Header' do
-      expect(file.header).to be_kind_of(Gedspec::Header)
-    end
+    specify { expect(file.header).to be_kind_of(Gedspec::Header) }
+  end
+
+  describe '#individuals' do
+    specify { expect(file.individuals).to all be_kind_of(Gedspec::Individual) }
+  end
+
+  describe '#individual' do
+    specify { expect(file.individual('I13')).to be_kind_of(Gedspec::Individual) }
+  end
+
+  describe '#families' do
+    specify { expect(file.families).to all be_kind_of(Gedspec::Family) }
+  end
+
+  describe '#family' do
+    specify { expect(file.family('F5')).to be_kind_of(Gedspec::Family) }
   end
 end
