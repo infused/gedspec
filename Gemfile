@@ -5,4 +5,5 @@ gem 'rspec'
 
 group :development do
   gem 'guard-rspec'
+  gem 'byebug'
 end

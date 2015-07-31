@@ -13,6 +13,6 @@ module Gedspec
     has_many :repositories, :repository, 'Gedspec::Repository', 'REPO'
     has_many :sources, :source, 'Gedspec::Source', 'SOUR'
     has_many :notes, :note, 'Gedspec::Note', 'NOTE'
-    has_many :objects, :object, 'Gedspec::Media', 'OBJE'
+    has_many :objects, :object, 'Gedspec::MediaObject', 'OBJE'
   end
 end

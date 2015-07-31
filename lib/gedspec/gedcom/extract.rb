@@ -12,7 +12,8 @@ module Gedspec
 
       def extract(tag, xref = nil, level = 0)
         @file.rewind
-        results = @file.read.force_encoding('ASCII-8BIT').scan(record_regex(tag, xref, level))
+        text = @file.read.force_encoding('ASCII-8BIT')
+        results = text.scan(record_regex(tag, xref, level))
         xref && results.size == 1 ? results.flatten[0] : results.flatten
       end
 
