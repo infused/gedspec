@@ -12,5 +12,6 @@ module Gedspec
     has_many :families, :family, 'Gedspec::Family', 'FAM'
     has_many :repositories, :repository, 'Gedspec::Repository', 'REPO'
     has_many :sources, :source, 'Gedspec::Source', 'SOUR'
+    has_many :notes, :note, 'Gedspec::Note', 'NOTE'
   end
 end

@@ -62,4 +62,18 @@ describe Gedspec::File do
       specify { expect(file.source('XX')).to be_nil }
     end
   end
+
+  describe '#notes' do
+    specify { expect(file.notes).to all be_kind_of(Gedspec::Note) }
+  end
+
+  describe '#note' do
+    describe 'with valid xref' do
+      specify { expect(file.note('N2')).to be_kind_of(Gedspec::Note) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.note('XX')).to be_nil }
+    end
+  end
 end
