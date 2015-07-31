@@ -76,4 +76,18 @@ describe Gedspec::File do
       specify { expect(file.note('XX')).to be_nil }
     end
   end
+
+  describe '#objects' do
+    specify { expect(file.objects).to all be_kind_of(Gedspec::Media) }
+  end
+
+  describe '#object' do
+    describe 'with valid xref' do
+      specify { expect(file.object('M1')).to be_kind_of(Gedspec::Media) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.object('XX')).to be_nil }
+    end
+  end
 end
