@@ -19,12 +19,7 @@ module Gedspec
         define_method plural_name do
           klass = class_name.constantize
           results = gedcom_file.send(tag.downcase.to_sym)
-
-          if results.respond_to?(:map)
-            results.map { |result| klass.new(result) }
-          else
-            klass.new(results)
-          end
+          results.map { |result| klass.new(result) }
         end
       end
 
@@ -32,7 +27,8 @@ module Gedspec
         define_method singular_name do |xref|
           klass = class_name.constantize
           tag_method = tag.downcase.to_sym
-          klass.new gedcom_file.send(tag_method, xref)
+          result = gedcom_file.send(tag_method, xref)
+          result.empty? ? nil : klass.new(result)
         end
       end
     end

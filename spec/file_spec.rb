@@ -12,7 +12,13 @@ describe Gedspec::File do
   end
 
   describe '#individual' do
-    specify { expect(file.individual('I13')).to be_kind_of(Gedspec::Individual) }
+    describe 'with valid xref' do
+      specify { expect(file.individual('I13')).to be_kind_of(Gedspec::Individual) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.individual('XX')).to be_nil }
+    end
   end
 
   describe '#families' do
@@ -20,7 +26,13 @@ describe Gedspec::File do
   end
 
   describe '#family' do
-    specify { expect(file.family('F5')).to be_kind_of(Gedspec::Family) }
+    describe 'with valid xref' do
+      specify { expect(file.family('F5')).to be_kind_of(Gedspec::Family) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.family('XX')).to be_nil }
+    end
   end
 
   describe '#repositories' do
@@ -28,10 +40,26 @@ describe Gedspec::File do
   end
 
   describe '#repository' do
-    specify { expect(file.repository('R1')).to be_kind_of(Gedspec::Repository) }
+    describe 'with valid xref' do
+      specify { expect(file.repository('R1')).to be_kind_of(Gedspec::Repository) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.repository('XX')).to be_nil }
+    end
   end
 
   describe '#sources' do
     specify { expect(file.sources).to all be_kind_of(Gedspec::Source) }
+  end
+
+  describe '#source' do
+    describe 'with valid xref' do
+      specify { expect(file.source('SR2')).to be_kind_of(Gedspec::Source) }
+    end
+
+    describe 'with invalid xref' do
+      specify { expect(file.source('XX')).to be_nil }
+    end
   end
 end
