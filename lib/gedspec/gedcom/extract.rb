@@ -13,7 +13,7 @@ module Gedspec
       def extract(tag, xref = nil, level = 0)
         @file.rewind
         results = @file.read.force_encoding('ASCII-8BIT').scan(record_regex(tag, xref, level))
-        results.size == 1 ? results.flatten[0] : results.flatten
+        xref && results.size == 1 ? results.flatten[0] : results.flatten
       end
 
       def extract_attribute(tag, top_level = false)

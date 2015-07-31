@@ -24,7 +24,7 @@ describe Gedspec::File do
   end
 
   describe '#repositories' do
-    specify { expect(file.repositories).to be_kind_of(Gedspec::Repository) }
+    specify { expect(file.repositories).to all be_kind_of(Gedspec::Repository) }
   end
 
   describe '#repository' do

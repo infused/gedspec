@@ -4,23 +4,31 @@ module Gedspec
       def has_one(singular_name, class_name, tag)
         define_method singular_name do
           klass = class_name.constantize
-          klass.new gedcom_file.extract(tag)
+          klass.new(gedcom_file.extract tag)
         end
       end
 
       def has_many(plural_name, singular_name, class_name, tag)
+        define_has_many_collection(plural_name, class_name, tag)
+        define_has_many_finder(singular_name, class_name, tag)
+      end
+
+      private
+
+      def define_has_many_collection(plural_name, class_name, tag)
         define_method plural_name do
           klass = class_name.constantize
-          tag_method = tag.downcase.to_sym
-          results = gedcom_file.send(tag_method)
+          results = gedcom_file.send(tag.downcase.to_sym)
 
-          if results.is_a?(Array)
-            results.map { |r| klass.new r }
+          if results.respond_to?(:map)
+            results.map { |result| klass.new(result) }
           else
-            klass.new results
+            klass.new(results)
           end
         end
+      end
 
+      def define_has_many_finder(singular_name, class_name, tag)
         define_method singular_name do |xref|
           klass = class_name.constantize
           tag_method = tag.downcase.to_sym
