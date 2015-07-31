@@ -12,13 +12,19 @@ module Gedspec
         define_method plural_name do
           klass = class_name.constantize
           tag_method = tag.downcase.to_sym
-          gedcom_file.send(tag_method).map { |s| klass.new s }
+          results = gedcom_file.send(tag_method)
+
+          if results.is_a?(Array)
+            results.map { |r| klass.new r }
+          else
+            klass.new results
+          end
         end
 
         define_method singular_name do |xref|
           klass = class_name.constantize
           tag_method = tag.downcase.to_sym
-          klass.new gedcom_file.indi(xref)
+          klass.new gedcom_file.send(tag_method, xref)
         end
       end
     end

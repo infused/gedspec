@@ -10,5 +10,6 @@ module Gedspec
     has_one :header, 'Gedspec::Header', 'HEAD'
     has_many :individuals, :individual, 'Gedspec::Individual', 'INDI'
     has_many :families, :family, 'Gedspec::Family', 'FAM'
+    has_many :repositories, :repository, 'Gedspec::Repository', 'REPO'
   end
 end

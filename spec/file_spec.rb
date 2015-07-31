@@ -22,4 +22,12 @@ describe Gedspec::File do
   describe '#family' do
     specify { expect(file.family('F5')).to be_kind_of(Gedspec::Family) }
   end
+
+  describe '#repositories' do
+    specify { expect(file.repositories).to be_kind_of(Gedspec::Repository) }
+  end
+
+  describe '#repository' do
+    specify { expect(file.repository('R1')).to be_kind_of(Gedspec::Repository) }
+  end
 end
