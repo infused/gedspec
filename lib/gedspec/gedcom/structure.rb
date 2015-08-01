@@ -67,7 +67,7 @@ module Gedspec
           instance_variable_set "@#{name}", []
 
           options = association[:options]
-          class_eval do
+          self.class.class_eval do
             define_method name.to_sym do
               extract_attribute association[:context], options[:top_level]
             end

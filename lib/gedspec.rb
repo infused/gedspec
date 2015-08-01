@@ -1,5 +1,3 @@
-require 'active_support/core_ext'
-
 require 'gedspec/gedcom/extract'
 require 'gedspec/gedcom/structure'
 require 'gedspec/gedcom/file'
