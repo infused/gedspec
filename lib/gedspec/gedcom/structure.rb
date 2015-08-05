@@ -41,6 +41,10 @@ module Gedspec
         @gedcom_structure[/0 (@.+?@)/, 1]
       end
 
+      def id
+        xref.gsub('@', '')
+      end
+
       def get_level(structure)
         level = structure[/\d+/, 0]
         level && level.to_i

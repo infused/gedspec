@@ -47,4 +47,10 @@ describe Gedspec::Individual do
   it 'parses rin' do
     expect(indi.rin).to eq 'A1'
   end
+
+  describe '#id' do
+    it 'returns the xref sans delimiters' do
+      expect(indi.id).to eq 'I1'
+    end
+  end
 end
