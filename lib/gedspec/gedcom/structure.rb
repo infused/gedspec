@@ -4,28 +4,32 @@ module Gedspec
     class Structure
       include Gedspec::Gedcom::Extract
 
-      class << self
-        def start_callbacks
-          @start_callbacks ||= {}
-        end
+      def self.start_callbacks
+        @start_callbacks ||= {}
+      end
 
-        def end_callbacks
-          @end_callbacks ||= {}
-        end
+      def self.end_callbacks
+        @end_callbacks ||= {}
+      end
 
-        def associations
-          @associations ||= {}
-        end
+      def self.associations
+        @associations ||= {}
+      end
 
-        attr_writer :associations
+      def self.associations=(value)
+        @associations = value
       end
 
       def self.attribute(context, name, options = {})
         attr_accessor name.to_sym
 
-        params = {attr: name.to_sym}.merge!(options)
+        params = default_options.merge!(options)
         self.associations = associations.merge(name => {context: context, options: params})
         start_callbacks[context] = [:update_attribute, params]
+      end
+
+      def self.default_options
+        {attr: name.to_sym}
       end
 
       def initialize(*args)
@@ -56,9 +60,7 @@ module Gedspec
         var = send(params[:attr])
         case params[:append]
         when :cont
-          if var
-            data = var + "\n" + data
-          end
+          data = "#{var}\n#{data}" if var
         when :conc
           data = (var || '') + data
         end
