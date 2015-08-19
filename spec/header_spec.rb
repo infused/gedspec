@@ -57,4 +57,8 @@ describe Gedspec::Header do
   it 'parses char' do
     expect(head.char).to eq 'ANSEL'
   end
+
+  it 'parses lang' do
+    expect(head.lang).to eq 'English'
+  end
 end

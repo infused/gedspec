@@ -4,5 +4,6 @@ module Gedspec
     attribute 'CHAR', :char
     attribute 'FILE', :file
     attribute 'COPR', :copr
+    attribute 'LANG', :lang
   end
 end
