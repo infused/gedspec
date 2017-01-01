@@ -2,6 +2,7 @@ branches:
   only:
     - master
 bundler_args: --without=development
+gemfile: Gemfile.travis
 language: ruby
 rvm:
   - 2.4.0
