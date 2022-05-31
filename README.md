@@ -1,7 +1,6 @@
 # Gedspec
 
 [![Version](http://img.shields.io/gem/v/gedspec.svg?style=flat)](https://rubygems.org/gems/gedspec)
-[![Build Status](http://img.shields.io/travis/infused/gedspec/master.svg?style=flat)](http://travis-ci.com/infused/gedspec)
 
 Gedspec is an object oriented gedcom access library.  
 
