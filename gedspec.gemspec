@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.rdoc_options = ['--charset=UTF-8']
   s.extra_rdoc_files = ['README.md', 'LICENSE']
   s.files = Dir['[A-Z]*', '{docs,lib,spec}/**/*']
-  s.test_files = Dir.glob('spec/**/*_spec.rb')
   s.require_paths = ['lib']
 
   s.required_rubygems_version = '>= 1.8.0'
